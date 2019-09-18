@@ -11,7 +11,7 @@ import java.util.List;
 
 //branch demo
 public class ImagemBO {
-	private ImagemDAO imagemDAO;
+/*	private ImagemDAO imagemDAO;
 
 	public ImagemBO() {
 		imagemDAO = new ImagemDAO();
@@ -57,5 +57,5 @@ public class ImagemBO {
 		}
 		throw new ValidationException("invalido");
 
-	}
+	}*/
 }

@@ -6,30 +6,34 @@ import br.com.gastronomia.exception.UsuarioInativoException;
 import br.com.gastronomia.exception.ValidationException;
 import br.com.gastronomia.model.Usuario;
 import br.com.gastronomia.util.*;
-import org.hibernate.exception.ConstraintViolationException;
+//import org.hibernate.exception.ConstraintViolationException;
 
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
+import java.util.EmptyStackException;
 import java.util.HashMap;
 import java.util.List;
 
 public class UsuarioBO {
 	
-	private UsuarioDAO usuarioDAO;
+	//private UsuarioDAO usuarioDAO;
+
+	//MOCK PARA VER E VAL
+	ArrayList<Usuario> usuarios;
 
 	public UsuarioBO() {
-		usuarioDAO = new UsuarioDAO();
+		//usuarioDAO = new UsuarioDAO();
+		usuarios = new ArrayList<>();
 	}
 
-	public void setUsuarioDAO(UsuarioDAO usuarioDAO) {
+/*	public void setUsuarioDAO(UsuarioDAO usuarioDAO) {
 		this.usuarioDAO = usuarioDAO;
-	}
+	}*/
 
 	public boolean validateCPF(Usuario usuario) throws ValidationException {
 		if (Validator.validaCpf.fazConta(usuario.getCpf()))
 			return true;
-		throw new ValidationException("invalido");
-
+		throw new ValidationException("Usuário Inválido");
 	}
 
 	public boolean createUser(Usuario usuario) throws NoSuchAlgorithmException, ValidationException {
@@ -37,16 +41,17 @@ public class UsuarioBO {
 			String encryptedPassword = EncryptUtil.encrypt2(usuario.getSenha());
 			usuario.setSenha(encryptedPassword);
 
-			SendMail sendMail = new SendMail();
-			String subject = "Confirmação de email";
+			//SendMail sendMail = new SendMail();
+			//String subject = "Confirmação de email";
 //			String body = "localhost:8080/auth/" + EncryptUtil.encrypt2(String.valueOf(usuario.getMatricula()));
-			String body = "Bem Vindo ao NUTRITECH. Acesse  o link http://www.homo.ages.pucrs.br/nutritech/ para começar";
-			sendMail.envio(usuario.getEmail(), usuario.getNome(), subject, body);
+			//String body = "Bem Vindo ao NUTRITECH. Acesse  o link http://www.homo.ages.pucrs.br/nutritech/ para começar";
+			//sendMail.envio(usuario.getEmail(), usuario.getNome(), subject, body);
 
 			try {
-				usuarioDAO.save(usuario);
+				//usuarioDAO.save(usuario);
+				usuarios.add(usuario);
 			}
-			catch (ConstraintViolationException e) {
+/*			catch (ConstraintViolationException e) {
 				switch (e.getConstraintName()) {
 					case "cpf_uc":
 						throw new ValidationException("CPF inserido já cadastrado");
@@ -55,7 +60,7 @@ public class UsuarioBO {
 					case "matricula_uc":
 						throw new ValidationException("Matricula inserida já cadastrada");
 				}
-			}
+			}*/
 			catch (Exception e) {
 				throw new ValidationException(e.getMessage());
 			}
@@ -63,16 +68,16 @@ public class UsuarioBO {
 		return true;
 	}
 
-	public void esqueceuSenha(String email, String nome, long id){
+/*	public void esqueceuSenha(String email, String nome, long id){
 		String hash = email + System.nanoTime();
 
 		SendMail sendMail = new SendMail();
 		String subject = "NUTRITECH - Redefinir senha";
 		String body = "Acesse  o link para redefinir sua senha: http://www.homo.ages.pucrs.br/nutritech/#/usuario/"+id;
 		sendMail.envio(email,"",  subject, body);
-	}
+	}*/
 
-	public long deactivateUser(long id) throws ValidationException {
+/*	public long deactivateUser(long id) throws ValidationException {
 		return usuarioDAO.alterStatus(id, false);
 	}
 
@@ -93,13 +98,13 @@ public class UsuarioBO {
 		}
 		throw new ValidationException("invalido");
 
-	}
-
+	}*/
+/*
 	public Usuario validate(Usuario newUsuario) {
 		return newUsuario;
-	}
+	}*/
 
-	public Usuario userExists(UsuarioLoginDTO usuarioLogin) throws NoSuchAlgorithmException, ValidationException, UsuarioInativoException {
+/*	public Usuario userExists(UsuarioLoginDTO usuarioLogin) throws NoSuchAlgorithmException, ValidationException, UsuarioInativoException {
 		usuarioLogin.setSenha(EncryptUtil.encrypt2(usuarioLogin.getSenha()));
 		Usuario returnedUsuario = null;
 		try {
@@ -112,61 +117,107 @@ public class UsuarioBO {
 		if (!returnedUsuario.isStatus())
 			throw new UsuarioInativoException("Usuário Inativo");
 		return returnedUsuario;
+	}*/
+
+	public ArrayList<Usuario>/*HashMap<String, List<Usuario>>*/ listUser() {
+//		ArrayList<Usuario> usuarios = null;
+//		HashMap<String, List<Usuario>> listUsers = new HashMap<String, List<Usuario>>();
+//		usuarios = (ArrayList<Usuario>) usuarioDAO.listAll(Usuario.class);
+//		listUsers.put("Usuarios", usuarios);
+//		return listUsers;
+		if(usuarios.isEmpty()) throw new EmptyStackException();
+		return usuarios;
 	}
 
-	public HashMap<String, List<Usuario>> listUser() {
-		ArrayList<Usuario> usuarios = null;
-		HashMap<String, List<Usuario>> listUsers = new HashMap<String, List<Usuario>>();
-		usuarios = (ArrayList<Usuario>) usuarioDAO.listAll(Usuario.class);
-		listUsers.put("Usuarios", usuarios);
-		return listUsers;
+	public ArrayList<Usuario> /*HashMap<String, List<Usuario>>*/ listProf() {
+//		ArrayList<Usuario> usuarios = null;
+//		HashMap<String, List<Usuario>> listUsers = new HashMap<String, List<Usuario>>();
+//		usuarios = (ArrayList<Usuario>) usuarioDAO.listUsersByType(TipoDeUsuario.PROFESSOR);
+//		listUsers.put("Usuarios", usuarios);
+//		return listUsers;
+
+		if(usuarios.isEmpty()) throw new EmptyStackException();
+		ArrayList<Usuario> professores = new ArrayList<>();
+		for(int i=0; i<usuarios.size(); i++){
+			if(usuarios.get(i).getTipo() == TipoDeUsuario.PROFESSOR){
+				professores.get(i);
+			}
+		}
+		if(professores.isEmpty()) throw new EmptyStackException();
+		return professores;
 	}
 
-	public HashMap<String, List<Usuario>> listProf() {
-		ArrayList<Usuario> usuarios = null;
-		HashMap<String, List<Usuario>> listUsers = new HashMap<String, List<Usuario>>();
-		usuarios = (ArrayList<Usuario>) usuarioDAO.listUsersByType(TipoDeUsuario.PROFESSOR);
-		listUsers.put("Usuarios", usuarios);
-		return listUsers;
-	}
+	public ArrayList<Usuario> /*HashMap<String, List<Usuario>>*/ listAlunos() {
+//		ArrayList<Usuario> usuarios = null;
+//		HashMap<String, List<Usuario>> listUsers = new HashMap<String, List<Usuario>>();
+//		usuarios = (ArrayList<Usuario>) usuarioDAO.listUsersByType(TipoDeUsuario.USUARIO);
+//		listUsers.put("Usuarios", usuarios);
+//		return listUsers;
 
-	public HashMap<String, List<Usuario>> listAlunos() {
-		ArrayList<Usuario> usuarios = null;
-		HashMap<String, List<Usuario>> listUsers = new HashMap<String, List<Usuario>>();
-		usuarios = (ArrayList<Usuario>) usuarioDAO.listUsersByType(TipoDeUsuario.USUARIO);
-		listUsers.put("Usuarios", usuarios);
-		return listUsers;
+		if(usuarios.isEmpty()) throw new EmptyStackException();
+		ArrayList<Usuario> alunos = new ArrayList<>();
+		for(int i=0; i<usuarios.size(); i++){
+			if(usuarios.get(i).getTipo() == TipoDeUsuario.USUARIO){
+				alunos.get(i);
+			}
+		}
+		if(alunos.isEmpty()) throw new EmptyStackException();
+		return alunos;
 	}
 
 
 	public Usuario getUserByCpf(Usuario usuarioLogin) throws ValidationException {
 		if (usuarioLogin != null) {
-			return usuarioDAO.findUserByCPF(usuarioLogin.getCpf());
+			//return usuarioDAO.findUserByCPF(usuarioLogin.getCpf());
+			if(usuarios.isEmpty()) throw new EmptyStackException();
+			for(int i=0; i<usuarios.size(); i++){
+				if(usuarios.get(i).getCpf() == usuarioLogin.getCpf()){
+					return usuarios.get(i);
+				}
+			}
+			throw new ValidationException("Não existe Usuário com esse CPF");
 		}
 		throw new ValidationException("CPF Invalido");
 	}
 	
 	public Usuario getUserByEmail(Usuario usuarioLogin) throws ValidationException {
 		if (usuarioLogin != null) {
-			return usuarioDAO.findUserByEmail(usuarioLogin.getEmail());
+			//return usuarioDAO.findUserByEmail(usuarioLogin.getEmail());
+			if(usuarios.isEmpty()) throw new EmptyStackException();
+			for(int i=0; i<usuarios.size(); i++){
+				if(usuarios.get(i).getEmail() == usuarioLogin.getEmail()){
+					return usuarios.get(i);
+				}
+			}
+			throw new ValidationException("Não existe Usuário com esse e-mail");
 		}
-		throw new ValidationException("Email Invalido");
+		throw new ValidationException("E-mail Inválido");
 	}
 	
 	public Usuario getUserByMatricula(Usuario usuarioLogin) throws ValidationException {
 		if (usuarioLogin != null) {
-			return usuarioDAO.findUserByMatricula(usuarioLogin.getMatricula());
+			//return usuarioDAO.findUserByMatricula(usuarioLogin.getMatricula());
+			if(usuarios.isEmpty()) throw new EmptyStackException();
+			for(int i=0; i<usuarios.size(); i++){
+				if(usuarios.get(i).getMatricula() == usuarioLogin.getMatricula()){
+					return usuarios.get(i);
+				}
+			}
+			throw new ValidationException("Não existe Usuário com essa matrícula");
 		}
-		throw new ValidationException("Email Invalido");
+		throw new ValidationException("Matrícula Inválida");
 	}
 	
-	public Usuario getUserById(long id) throws ValidationException {
-		if (id > 0) {
-			Usuario usuario = usuarioDAO.findUserByID(id);
+	public Usuario getUserById(/*long id*/int index) throws ValidationException {
+		if (index > 0) {
+			/*Usuario usuario = usuarioDAO.findUserByID(id);
 			usuario.setSenha("");
-			return usuario;
+			return usuario;*/
+			Usuario user = usuarios.get(index);
+			if(user==null) throw new ValidationException("Index Inválido");
+			return user;
 		}
-		throw new ValidationException("invalido");
+		throw new ValidationException("Index Inválido");
 
 	}
 

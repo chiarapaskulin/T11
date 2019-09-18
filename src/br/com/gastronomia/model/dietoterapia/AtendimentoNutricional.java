@@ -1,36 +1,36 @@
 package br.com.gastronomia.model.dietoterapia;
 
 import br.com.gastronomia.model.Usuario;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
-import javax.persistence.*;
+//import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+//
+//import javax.persistence.*;
 import java.util.Date;
 
-@Entity
-@Table(name = "AtendimentoNutricional")
-@JsonIgnoreProperties(ignoreUnknown = true)
+//@Entity
+//@Table(name = "AtendimentoNutricional")
+//@JsonIgnoreProperties(ignoreUnknown = true)
 public class AtendimentoNutricional {
-    @Id
-    @GeneratedValue
-    @Column(name = "IdAtendimento")
+//    @Id
+//    @GeneratedValue
+//    @Column(name = "IdAtendimento")
     private long id;
 
-    @OneToOne
-    @JoinColumn(name = "IdAluno")
+//    @OneToOne
+//    @JoinColumn(name = "IdAluno")
     private Usuario aluno;
 
-    @OneToOne
-    @JoinColumn(name = "IdProfessor")
+//    @OneToOne
+//    @JoinColumn(name = "IdProfessor")
     private Usuario professor;
 
-    @OneToOne
-    @JoinColumn(name = "IdPaciente")
+//    @OneToOne
+//    @JoinColumn(name = "IdPaciente")
     private Paciente paciente;
 
-    @Column(name = "data")
+//    @Column(name = "data")
     private Date data;
 
-    @Column(name = "status")
+ //   @Column(name = "status")
     private Boolean status;
 
 

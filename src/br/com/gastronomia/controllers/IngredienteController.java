@@ -1,22 +1,22 @@
 package br.com.gastronomia.controllers;
 
-import br.com.gastronomia.bo.IngredienteBO;
-import br.com.gastronomia.dto.StandardResponseDTO;
-import br.com.gastronomia.exception.PersistenciaException;
-import br.com.gastronomia.exception.ValidationException;
-import br.com.gastronomia.model.Ingrediente;
-import br.com.gastronomia.util.EncryptUtil;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-import javax.ws.rs.*;
-import javax.ws.rs.core.Context;
-import javax.ws.rs.core.Response;
-import java.sql.SQLException;
-
-@Path("ingredientes")
+//import br.com.gastronomia.bo.IngredienteBO;
+//import br.com.gastronomia.dto.StandardResponseDTO;
+//import br.com.gastronomia.exception.PersistenciaException;
+//import br.com.gastronomia.exception.ValidationException;
+//import br.com.gastronomia.model.Ingrediente;
+//import br.com.gastronomia.util.EncryptUtil;
+//
+//import javax.servlet.http.HttpServletRequest;
+//import javax.servlet.http.HttpSession;
+//import javax.ws.rs.*;
+//import javax.ws.rs.core.Context;
+//import javax.ws.rs.core.Response;
+//import java.sql.SQLException;
+//
+//@Path("ingredientes")
 public class IngredienteController {
-	private IngredienteBO ingredienteBO = new IngredienteBO();
+/*	private IngredienteBO ingredienteBO = new IngredienteBO();
 	private EncryptUtil encryptUtil = new EncryptUtil();
 
 	@Context
@@ -94,5 +94,5 @@ public class IngredienteController {
 		}
 		return Response.ok().entity(new StandardResponseDTO(true, "Ingrediente "+ingrediente.getNome()+ " editado com sucesso!")).status(Response.Status.ACCEPTED).build();
 
-	}
+	}*/
 }

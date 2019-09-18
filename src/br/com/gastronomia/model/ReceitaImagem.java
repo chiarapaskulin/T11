@@ -1,28 +1,28 @@
 package br.com.gastronomia.model;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
-import javax.persistence.*;
+//import com.fasterxml.jackson.annotation.JsonBackReference;
+//import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+//
+//import javax.persistence.*;
 import java.io.Serializable;
-
-@Entity
-@Inheritance(strategy = InheritanceType.JOINED)
-@Table(name= "ReceitaImagem")
-@IdClass(ReceitaImagemId.class)
-@JsonIgnoreProperties(ignoreUnknown = true)
+//
+//@Entity
+//@Inheritance(strategy = InheritanceType.JOINED)
+//@Table(name= "ReceitaImagem")
+//@IdClass(ReceitaImagemId.class)
+//@JsonIgnoreProperties(ignoreUnknown = true)
 
 public class ReceitaImagem implements Serializable {
 
-    @Id
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "IdImagem")
+//    @Id
+//    @ManyToOne(fetch = FetchType.EAGER)
+//    @JoinColumn(name = "IdImagem")
     private Imagem imagem;
 
-    @Id
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "IdReceita")
-    @JsonBackReference
+//    @Id
+//    @ManyToOne(fetch = FetchType.LAZY)
+//    @JoinColumn(name = "IdReceita")
+//    @JsonBackReference
     private Receita receita;
 
     public ReceitaImagem() {

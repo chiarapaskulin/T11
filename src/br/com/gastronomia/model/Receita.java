@@ -1,11 +1,11 @@
 package br.com.gastronomia.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
-
-import javax.persistence.*;
-import javax.validation.constraints.Max;
-import javax.validation.constraints.NotEmpty;
+//import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+//import com.fasterxml.jackson.annotation.JsonManagedReference;
+//
+//import javax.persistence.*;
+//import javax.validation.constraints.Max;
+//import javax.validation.constraints.NotEmpty;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.HashSet;
@@ -18,10 +18,10 @@ import java.util.Set;
  * @since 11/08/2017
  *
  **/
-@Entity
-@Inheritance(strategy = InheritanceType.JOINED)
-@Table(name= "Receita")
-@JsonIgnoreProperties(ignoreUnknown = true)
+//@Entity
+//@Inheritance(strategy = InheritanceType.JOINED)
+//@Table(name= "Receita")
+//@JsonIgnoreProperties(ignoreUnknown = true)
 public class Receita implements Serializable {
 
     private static final long serialVersionUID = -789863172532826108L;
@@ -31,75 +31,75 @@ public class Receita implements Serializable {
         PUBLICO, PRIVADO, NULL
     }
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "IdReceita")
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @Column(name = "IdReceita")
     private long id;
 
-    @NotEmpty
-    @Column(name = "Nome")
+//    @NotEmpty
+//    @Column(name = "Nome")
     private String nome;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "Nota", nullable = true, foreignKey=@ForeignKey(name = "FK_RECEITA_NOTA"))
+//    @OneToOne(cascade = CascadeType.ALL)
+//    @JoinColumn(name = "Nota", nullable = true, foreignKey=@ForeignKey(name = "FK_RECEITA_NOTA"))
     private Nota nota;
 
-    @Column(name= "Publicada", nullable = false)
+//    @Column(name= "Publicada", nullable = false)
     private boolean publicada;
 
-    @Column(name= "Status", nullable = false)
+//    @Column(name= "Status", nullable = false)
     private boolean status;
 
-    @ElementCollection(fetch = FetchType.EAGER)
-    @CollectionTable(name="Passos", joinColumns = @JoinColumn(name = "IdReceita"))
-    @Column(name = "Passos", nullable = false)
+//    @ElementCollection(fetch = FetchType.EAGER)
+//    @CollectionTable(name="Passos", joinColumns = @JoinColumn(name = "IdReceita"))
+//    @Column(name = "Passos", nullable = false)
     private Set<String> passos = new HashSet<>();
 
-    @Column(name = "Rendimento", nullable = false)
+//    @Column(name = "Rendimento", nullable = false)
     private String rendimento;
 
-    @Column(name = "Tempo", nullable = false)
+//    @Column(name = "Tempo", nullable = false)
     private String tempo;
 
-    @Column(name = "Peso", nullable = false)
+//    @Column(name = "Peso", nullable = false)
     private double peso;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "Imagem", nullable = false, foreignKey=@ForeignKey(name = "FK_RECEITA_IMAGEM"))
+//    @OneToOne(cascade = CascadeType.ALL)
+//    @JoinColumn(name = "Imagem", nullable = false, foreignKey=@ForeignKey(name = "FK_RECEITA_IMAGEM"))
     private Imagem imagem;
 
-    @Column(name = "Dificuldade", nullable = true)
-    @Max(5)
+//    @Column(name = "Dificuldade", nullable = true)
+//    @Max(5)
     private int dificuldade;
 
-    @Column(name = "Tipo", nullable = false)
+//    @Column(name = "Tipo", nullable = false)
     private Tipo tipo;
-    @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(name="ReceitaUsuarios",
-            joinColumns=
-                    {@JoinColumn(name="IdReceita"), }, inverseJoinColumns=
-            {@JoinColumn(name="IdUsuario")})
+//    @ManyToMany(fetch = FetchType.EAGER)
+//    @JoinTable(name="ReceitaUsuarios",
+//            joinColumns=
+//                    {@JoinColumn(name="IdReceita"), }, inverseJoinColumns=
+//            {@JoinColumn(name="IdUsuario")})
     private Set<Usuario> criadores = new HashSet<>();
 
-    @OneToMany(
-            mappedBy = "receita",
-            fetch = FetchType.EAGER,
-            cascade = {
-                    CascadeType.ALL
-            })
-    @JsonManagedReference
+//    @OneToMany(
+//            mappedBy = "receita",
+//            fetch = FetchType.EAGER,
+//            cascade = {
+//                    CascadeType.ALL
+//            })
+//    @JsonManagedReference
     private Set<ReceitaIngrediente> receitaIngrediente = new HashSet<>();
 
-    @ManyToOne(cascade = CascadeType.PERSIST)
-    @JoinColumn(name = "IdProfessor", nullable = false, foreignKey=@ForeignKey(name = "FK_RECEITA_PROFESSOR"))
+//    @ManyToOne(cascade = CascadeType.PERSIST)
+//    @JoinColumn(name = "IdProfessor", nullable = false, foreignKey=@ForeignKey(name = "FK_RECEITA_PROFESSOR"))
     private Usuario professor;
 
-    @Column(name = "Data", nullable = false)
-    @Temporal(TemporalType.TIMESTAMP)
+ //   @Column(name = "Data", nullable = false)
+ //   @Temporal(TemporalType.TIMESTAMP)
     private Date datahora;
 
-    @ManyToOne(cascade = CascadeType.PERSIST)
-    @JoinColumn(name = "GrupoReceita", nullable = false, foreignKey=@ForeignKey(name = "FK_RECEITA_GRUPORECEITA"))
+//    @ManyToOne(cascade = CascadeType.PERSIST)
+ //   @JoinColumn(name = "GrupoReceita", nullable = false, foreignKey=@ForeignKey(name = "FK_RECEITA_GRUPORECEITA"))
     private GrupoReceitas grupoReceita;
 
     public Receita() {

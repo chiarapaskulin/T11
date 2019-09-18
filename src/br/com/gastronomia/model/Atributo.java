@@ -1,10 +1,10 @@
 package br.com.gastronomia.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
-import javax.persistence.*;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotEmpty;
+//import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+//
+//import javax.persistence.*;
+//import javax.validation.constraints.Min;
+//import javax.validation.constraints.NotEmpty;
 import java.io.Serializable;
 
 /**
@@ -15,42 +15,42 @@ import java.io.Serializable;
  * 
  **/
 
-@Entity
-@Inheritance(strategy = InheritanceType.JOINED)
-@Table(name= "Atributo")
-@JsonIgnoreProperties(ignoreUnknown = true)
+//@Entity
+//@Inheritance(strategy = InheritanceType.JOINED)
+//@Table(name= "Atributo")
+//@JsonIgnoreProperties(ignoreUnknown = true)
 public class Atributo implements Serializable {
 
 	private static final long serialVersionUID = -789863172532826108L;
-	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "IdAtributo")
+
+//	@Id
+//	@GeneratedValue(strategy = GenerationType.IDENTITY)
+//	@Column(name = "IdAtributo")
 	private long id;
 
-	@NotEmpty
-	@Column(name = "Nome", unique = true)
+//	@NotEmpty
+//	@Column(name = "Nome", unique = true)
 	private String nome;
 
-	@NotEmpty
-	@Column(name = "Unidade")
+//	@NotEmpty
+//	@Column(name = "Unidade")
 	private String unidade;
 
-	@Min(0)
-	@Column(name = "Multiplicador")
+//	@Min(0)
+//	@Column(name = "Multiplicador")
 	private long multiplicador;
 
-    @Column(name = "Ordem")
+//  @Column(name = "Ordem")
     private Long ordem;
 
-	@Column(name= "Obrigatorio", nullable = false)
+//	@Column(name= "Obrigatorio", nullable = false)
 	private boolean obrigatorio;
 
-	@Column(name= "Status", nullable = false)
+//	@Column(name= "Status", nullable = false)
 	private boolean status;
 
 
-	@Column(name= "ValorDiario")
+//	@Column(name= "ValorDiario")
 	private int valorDiario;
 
 	/**

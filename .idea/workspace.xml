@@ -2,81 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0f957dd-ebab-4925-9c53-6108ed1a07a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/authorization/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/AtributoBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/GrupoReceitasBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/ImagemBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/IngredienteBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/ReceitaBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/UsuarioBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/PacienteBO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/Teste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/APIController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/AtributoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/CORSFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/GrupoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/ImagemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/IngredienteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/JWTTokenNeeded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/JWTTokenNeededFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/ReceitaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/UsuarioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/dietoterapia/AtendimentoNutricionalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/dietoterapia/PacienteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dao/AtributoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dao/GrupoReceitasDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dao/ImagemDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dao/IngredienteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dao/ReceitaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dao/UsuarioDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dao/dietoterapia/AtendimentoNutricionalDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dao/dietoterapia/PacienteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dto/AtendimentoNutricionalDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dto/IngredienteAtributoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dto/IngredienteCadastroDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dto/QuestionAnswerDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dto/StandardResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dto/UsuarioFormattedDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dto/UsuarioLoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/exception/PersistenciaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/exception/UsuarioInativoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/exception/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/imp/GenericDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/Atributo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/GrupoReceitas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/Imagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/Ingrediente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/IngredienteAtributo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/IngredienteAtributoId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/Nota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/Perfil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/Receita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaImagem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaImagemId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaIngrediente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaIngredienteId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/dietoterapia/AtendimentoNutricional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/dietoterapia/Paciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/ConexaoUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/Constantes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/EncryptUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/ExportCSV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/KeyGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/LogParametrosSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/MensagemContantes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/ReadProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/SendMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/SimpleKeyGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/TipoDeIngrediente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/TipoDeUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/TokenGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/bo/AtributoBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/AtributoBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/bo/GrupoReceitasBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/GrupoReceitasBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/PacienteBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/PacienteBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/APIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/APIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/AtributoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/AtributoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/CORSFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/CORSFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/GrupoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/GrupoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/ImagemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/ImagemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/IngredienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/IngredienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/JWTTokenNeeded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/JWTTokenNeeded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/JWTTokenNeededFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/JWTTokenNeededFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/ReceitaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/ReceitaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/dietoterapia/AtendimentoNutricionalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/dietoterapia/AtendimentoNutricionalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/dietoterapia/PacienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/controllers/dietoterapia/PacienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/dao/AtributoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dao/AtributoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/dao/GrupoReceitasDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dao/GrupoReceitasDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/dao/ImagemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dao/ImagemDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/dao/IngredienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dao/IngredienteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/dao/ReceitaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dao/ReceitaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/dao/UsuarioDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dao/UsuarioDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/dao/dietoterapia/AtendimentoNutricionalDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dao/dietoterapia/AtendimentoNutricionalDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/dao/dietoterapia/PacienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/dao/dietoterapia/PacienteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/db/GeneratedDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/db/GeneratedDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/db/GenericHibernateDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/db/GenericHibernateDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/db/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/db/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/model/Atributo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/Atributo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/model/GrupoReceitas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/GrupoReceitas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/model/Imagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/Imagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/model/Ingrediente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/Ingrediente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/model/IngredienteAtributo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/IngredienteAtributo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/model/Nota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/Nota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/model/Perfil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/Perfil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/model/Receita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/Receita.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaImagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaImagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaIngrediente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaIngrediente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/model/dietoterapia/AtendimentoNutricional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/dietoterapia/AtendimentoNutricional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/model/dietoterapia/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/model/dietoterapia/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/util/ConexaoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/ConexaoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/util/LogParametrosSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/LogParametrosSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/util/SendMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/SendMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/util/TokenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/TokenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/util/Util.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,67 +59,105 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/KeyGenerator.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/ReadProperties.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dto/UsuarioLoginDTO.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/exception/UsuarioInativoException.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/controllers/dietoterapia/AtendimentoNutricionalController.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/controllers/APIController.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/db/GeneratedDB.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/authorization/Role.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/Receita.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dto/IngredienteAtributoDto.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/GrupoReceitasBO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1547">
+              <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/PacienteBO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="50" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/AtributoBO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-510">
+              <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>list</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/db/GeneratedDB.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/db/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/dao/AtributoDAO.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/dao/dietoterapia/AtendimentoNutricionalDAO.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/dao/dietoterapia/PacienteDAO.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/dao/GrupoReceitasDAO.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/dao/ImagemDAO.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/dao/IngredienteDAO.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/dao/ReceitaDAO.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/dao/UsuarioDAO.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/db/GenericHibernateDAO.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/APIController.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/AtributoController.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/AuthController.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/CORSFilter.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/GrupoController.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/ImagemController.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/IngredienteController.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/JWTTokenNeeded.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/JWTTokenNeededFilter.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/ReceitaController.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/UsuarioController.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/dietoterapia/PacienteController.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/dietoterapia/AtendimentoNutricionalController.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/Atributo.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/GrupoReceitas.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/Imagem.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/Ingrediente.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/IngredienteAtributo.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/Nota.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/Perfil.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/Receita.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaImagem.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaIngrediente.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/Usuario.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/util/ConexaoUtil.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/util/LogParametrosSession.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/util/SendMail.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/util/TokenGenerator.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/util/Util.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/dietoterapia/AtendimentoNutricional.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/dietoterapia/Paciente.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/Teste.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/AtributoBO.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/PacienteBO.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/GrupoReceitasBO.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="9" />
+    <option name="x" value="-12" />
     <option name="y" value="-12" />
-    <option name="width" value="1347" />
-    <option name="height" value="690" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -155,6 +166,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,17 +185,39 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gastronomia" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="T11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="T11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gastronomia" type="462c0819:PsiDirectoryNode" />
+              <item name="bo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="T11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="T11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gastronomia" type="462c0819:PsiDirectoryNode" />
+              <item name="bo" type="462c0819:PsiDirectoryNode" />
+              <item name="dietoterapia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="T11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="T11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gastronomia" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568722298847" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568767577858" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -214,29 +248,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568685012578</updated>
-      <workItem from="1568685015355" duration="706000" />
+      <workItem from="1568685015355" duration="7460000" />
+      <workItem from="1568767074254" duration="753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="706000" />
+    <option name="totallyTimeSpent" value="8213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30445343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -244,50 +274,442 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30445343" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/KeyGenerator.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/ReadProperties.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dto/UsuarioLoginDTO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/exception/UsuarioInativoException.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/controllers/dietoterapia/AtendimentoNutricionalController.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/exception/PersistenciaException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/controllers/APIController.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/exception/ValidationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/db/GeneratedDB.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/Atributo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/authorization/Role.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/GrupoReceitas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/Imagem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/Ingrediente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-763">
+          <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/IngredienteAtributoId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/Nota.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/Perfil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/Receita.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1236">
+          <caret line="102" column="1" lean-forward="true" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaImagem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaImagemId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaIngrediente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-start-column="2" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaIngredienteId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/Token.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="166" column="12" lean-forward="true" selection-start-line="166" selection-start-column="12" selection-end-line="166" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/ConexaoUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/Constantes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/EncryptUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-641">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/ExportCSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/LogParametrosSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/MensagemContantes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/SendMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/ReadProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/SimpleKeyGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/TipoDeUsuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/TipoDeIngrediente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/TokenGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/dietoterapia/AtendimentoNutricional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/dietoterapia/Paciente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/KeyGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/IngredienteAtributo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/imp/GenericDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/db/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dto/AtendimentoNutricionalDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dao/GrupoReceitasDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dao/AtributoDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/db/GeneratedDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dto/IngredienteCadastroDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/controllers/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/controllers/dietoterapia/AtendimentoNutricionalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-964">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/authorization/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="88" column="31" lean-forward="true" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/Teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/AtributoBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/PacienteBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="50" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dto/IngredienteAtributoDto.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/GrupoReceitasBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="101" column="5" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

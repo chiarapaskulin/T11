@@ -1,15 +1,15 @@
 package br.com.gastronomia.dao;
 
-import br.com.gastronomia.db.GenericHibernateDAO;
-import br.com.gastronomia.db.HibernateUtil;
-import br.com.gastronomia.exception.ValidationException;
-import br.com.gastronomia.model.GrupoReceitas;
-import org.hibernate.Session;
+//import br.com.gastronomia.db.GenericHibernateDAO;
+//import br.com.gastronomia.db.HibernateUtil;
+//import br.com.gastronomia.exception.ValidationException;
+//import br.com.gastronomia.model.GrupoReceitas;
+//import org.hibernate.Session;
+//
+//import java.util.List;
 
-import java.util.List;
-
-public class GrupoReceitasDAO extends GenericHibernateDAO<GrupoReceitas> {
-	
+public class GrupoReceitasDAO{//} extends GenericHibernateDAO<GrupoReceitas> {
+	/*
 	public List<GrupoReceitas> listForName(Object GrupoReceitas, String q) {
 		Session session = HibernateUtil.getFactory();
 		List<GrupoReceitas> grupos = session.getNamedQuery("findGroupByName").setParameter("groupName", q).list();
@@ -41,5 +41,5 @@ public class GrupoReceitasDAO extends GenericHibernateDAO<GrupoReceitas> {
 		GrupoReceitas grupoReceitas = findGroupByID(id);
 		grupoReceitas.setStatus(status);
 		return merge(grupoReceitas);
-	}
+	}*/
 }

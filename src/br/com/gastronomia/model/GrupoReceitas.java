@@ -1,10 +1,10 @@
 package br.com.gastronomia.model;
 
-import org.codehaus.jackson.annotate.JsonIgnoreProperties;
-
-import javax.persistence.*;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotEmpty;
+//import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+//
+//import javax.persistence.*;
+//import javax.validation.constraints.Min;
+//import javax.validation.constraints.NotEmpty;
 import java.io.Serializable;
 
 /**
@@ -14,29 +14,29 @@ import java.io.Serializable;
  * @since 06/09/2017
  * 
  **/
-@Entity
-@Inheritance(strategy = InheritanceType.JOINED)
-@Table(name = "GrupoReceita")
-@JsonIgnoreProperties(ignoreUnknown = true)
+//@Entity
+//@Inheritance(strategy = InheritanceType.JOINED)
+//@Table(name = "GrupoReceita")
+//@JsonIgnoreProperties(ignoreUnknown = true)
 public class GrupoReceitas implements Serializable {
 
 	private static final long serialVersionUID = -789863172532826108L;
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "IdGrupo")
+//	@Id
+//	@GeneratedValue(strategy = GenerationType.IDENTITY)
+//	@Column(name = "IdGrupo")
 	private long id;
 
-	@NotEmpty
-	@Column(name = "Nome", unique = true)
+//	@NotEmpty
+//	@Column(name = "Nome", unique = true)
 	private String nome;
 
-	@Min(1)
-	@Column(name = "CustoPorcao")
+//	@Min(1)
+//	@Column(name = "CustoPorcao")
 	private double custo;
 
-	
-	@Column(name = "Status", nullable = false)
+
+//	@Column(name = "Status", nullable = false)
 	private boolean status;
 
 	/**

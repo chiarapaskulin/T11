@@ -1,31 +1,31 @@
 package br.com.gastronomia.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
-import javax.persistence.*;
-import javax.validation.constraints.NotEmpty;
+//import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+//
+//import javax.persistence.*;
+//import javax.validation.constraints.NotEmpty;
 import java.io.Serializable;
 import java.util.Arrays;
-
-
-@Entity
-@Inheritance(strategy = InheritanceType.JOINED)
-@Table(name= "Imagem")
-@JsonIgnoreProperties(ignoreUnknown = true)
+//
+//
+//@Entity
+//@Inheritance(strategy = InheritanceType.JOINED)
+//@Table(name= "Imagem")
+//@JsonIgnoreProperties(ignoreUnknown = true)
 public class Imagem implements Serializable {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "Id")
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @Column(name = "Id")
     private long id;
 
-    @NotEmpty
-    @Column(name = "Ext")
+//    @NotEmpty
+//    @Column(name = "Ext")
     private String ext;
 
-    @NotEmpty
-    @Lob
-    @Column(name = "Base64")
+//    @NotEmpty
+//    @Lob
+//    @Column(name = "Base64")
     private byte[] base64;
 
     /**

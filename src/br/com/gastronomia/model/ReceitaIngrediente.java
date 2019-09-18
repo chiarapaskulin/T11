@@ -1,10 +1,10 @@
 package br.com.gastronomia.model;
 
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
-import javax.persistence.*;
+//import com.fasterxml.jackson.annotation.JsonBackReference;
+//import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+//
+//import javax.persistence.*;
 import java.io.Serializable;
 
 /**
@@ -14,34 +14,34 @@ import java.io.Serializable;
  * @since 11/08/2017
  *
  **/
-@Entity
-@Inheritance(strategy = InheritanceType.JOINED)
-@Table(name= "ReceitaIngrediente")
-@IdClass(ReceitaIngredienteId.class)
-@JsonIgnoreProperties(ignoreUnknown = true)
+//@Entity
+//@Inheritance(strategy = InheritanceType.JOINED)
+//@Table(name= "ReceitaIngrediente")
+//@IdClass(ReceitaIngredienteId.class)
+//@JsonIgnoreProperties(ignoreUnknown = true)
 
 public class ReceitaIngrediente implements Serializable {
 
     private static final long serialVersionUID = -78917652532826108L;
 
-    @Id
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "IdIngrediente")
+//    @Id
+//    @ManyToOne(fetch = FetchType.EAGER)
+//    @JoinColumn(name = "IdIngrediente")
     private Ingrediente ingrediente;
 
-    @Id
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "IdReceita")
-    @JsonBackReference
+//    @Id
+//    @ManyToOne(fetch = FetchType.LAZY)
+//    @JoinColumn(name = "IdReceita")
+//    @JsonBackReference
     private Receita receita;
 
-    @Column(name = "CustoKg")
+//    @Column(name = "CustoKg")
     private double custoKg;
 
-    @Column(name = "FatorCorrecao")
+//    @Column(name = "FatorCorrecao")
     private double fatorCorrecao;
 
-    @Column(name = "PesoG")
+//    @Column(name = "PesoG")
     private double pesoG;
 
     public ReceitaIngrediente() {

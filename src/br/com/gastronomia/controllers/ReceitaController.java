@@ -1,6 +1,6 @@
 package br.com.gastronomia.controllers;
 
-import br.com.gastronomia.bo.ReceitaBO;
+/*import br.com.gastronomia.bo.ReceitaBO;
 import br.com.gastronomia.dto.StandardResponseDTO;
 import br.com.gastronomia.exception.PersistenciaException;
 import br.com.gastronomia.exception.ValidationException;
@@ -15,9 +15,9 @@ import javax.ws.rs.core.Response;
 import java.sql.SQLException;
 import java.util.Date;
 
-@Path("receitas")
+@Path("receitas")*/
 public class ReceitaController {
-    private ReceitaBO receitaBO = new ReceitaBO();
+  /*  private ReceitaBO receitaBO = new ReceitaBO();
     private EncryptUtil encryptUtil = new EncryptUtil();
 
     @Context
@@ -125,6 +125,6 @@ public class ReceitaController {
         }
         return Response.ok().entity(new StandardResponseDTO(true, "Receita "+receita.getNome()+ " editado com sucesso!")).status(Response.Status.ACCEPTED).build();
 
-    }
+    }*/
 
 }

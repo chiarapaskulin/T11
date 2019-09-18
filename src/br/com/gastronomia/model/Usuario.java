@@ -1,11 +1,11 @@
 package br.com.gastronomia.model;
 
 import br.com.gastronomia.util.TipoDeUsuario;
-import org.codehaus.jackson.annotate.JsonIgnoreProperties;
-
-import javax.persistence.*;
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotEmpty;
+//import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+//
+//import javax.persistence.*;
+//import javax.validation.constraints.Email;
+//import javax.validation.constraints.NotEmpty;
 import java.io.Serializable;
 
 /**
@@ -16,50 +16,50 @@ import java.io.Serializable;
  * @since 06/09/2017
  * 
  **/
-@Entity
-@Inheritance(strategy = InheritanceType.JOINED)
-@Table(name= "Usuario",
-		uniqueConstraints={
-				@UniqueConstraint(columnNames={"Email"}, name="email_uc"),
-				@UniqueConstraint(columnNames={"Cpf"}, name="cpf_uc"),
-				@UniqueConstraint(columnNames={"Matricula"}, name="matricula_uc")})
-@JsonIgnoreProperties(ignoreUnknown=true)
+//@Entity
+//@Inheritance(strategy = InheritanceType.JOINED)
+//@Table(name= "Usuario",
+//		uniqueConstraints={
+//				@UniqueConstraint(columnNames={"Email"}, name="email_uc"),
+//				@UniqueConstraint(columnNames={"Cpf"}, name="cpf_uc"),
+//				@UniqueConstraint(columnNames={"Matricula"}, name="matricula_uc")})
+//@JsonIgnoreProperties(ignoreUnknown=true)
 public class Usuario implements Serializable {
 
 	private static final long serialVersionUID = -789863172532826108L;
 	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "IdUsuario")
+//	@Id
+//	@GeneratedValue(strategy = GenerationType.IDENTITY)
+//	@Column(name = "IdUsuario")
 	private long id;
 
-	@NotEmpty
-	@Column(name = "Cpf")
+//	@NotEmpty
+//	@Column(name = "Cpf")
 	private String cpf;
 
-	@NotEmpty
-	@Email(message="E-mail invalido")
-	@Column(name = "Email")
+//	@NotEmpty
+//	@Email(message="E-mail invalido")
+//	@Column(name = "Email")
 	private String email;
 
-	@NotEmpty
-	@Column(name = "Matricula")
+//	@NotEmpty
+//	@Column(name = "Matricula")
 	private String matricula;
-
-	@NotEmpty
-	@Column(name= "Nome")
+//
+//	@NotEmpty
+//	@Column(name= "Nome")
 	private String nome;
 
-	@NotEmpty
-	@Column(name= "Senha")
+//	@NotEmpty
+//	@Column(name= "Senha")
 	private String senha;
 
-    @Column(name= "Tipo")
-    @Enumerated(EnumType.STRING)
+//    @Column(name= "Tipo")
+//    @Enumerated(EnumType.STRING)
 	private TipoDeUsuario tipo;
 	
 	
-	@Column(name= "Status", nullable = false)
+//	@Column(name= "Status", nullable = false)
 	private boolean status;
 
 	/**

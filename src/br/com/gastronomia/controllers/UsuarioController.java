@@ -1,23 +1,23 @@
 package br.com.gastronomia.controllers;
 
-import br.com.gastronomia.bo.UsuarioBO;
-import br.com.gastronomia.dao.UsuarioDAO;
-import br.com.gastronomia.dto.StandardResponseDTO;
-import br.com.gastronomia.exception.PersistenciaException;
-import br.com.gastronomia.exception.ValidationException;
-import br.com.gastronomia.model.Usuario;
-import br.com.gastronomia.util.EncryptUtil;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-import javax.ws.rs.*;
-import javax.ws.rs.core.Context;
-import javax.ws.rs.core.Response;
-import java.sql.SQLException;
-
-@Path("usuarios")
+//import br.com.gastronomia.bo.UsuarioBO;
+//import br.com.gastronomia.dao.UsuarioDAO;
+//import br.com.gastronomia.dto.StandardResponseDTO;
+//import br.com.gastronomia.exception.PersistenciaException;
+//import br.com.gastronomia.exception.ValidationException;
+//import br.com.gastronomia.model.Usuario;
+//import br.com.gastronomia.util.EncryptUtil;
+//
+//import javax.servlet.http.HttpServletRequest;
+//import javax.servlet.http.HttpSession;
+//import javax.ws.rs.*;
+//import javax.ws.rs.core.Context;
+//import javax.ws.rs.core.Response;
+//import java.sql.SQLException;
+//
+//@Path("usuarios")
 public class UsuarioController {
-	private UsuarioBO usuarioBO = new UsuarioBO();
+/*	private UsuarioBO usuarioBO = new UsuarioBO();
 	private UsuarioDAO usuarioDAO = new UsuarioDAO();
 	private EncryptUtil encryptUtil = new EncryptUtil();
 
@@ -140,7 +140,5 @@ public class UsuarioController {
 			return Response.ok().status(Response.Status.BAD_REQUEST).build();
 		}
 
-	}
-
-
+	}*/
 }

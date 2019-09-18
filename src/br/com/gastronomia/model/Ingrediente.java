@@ -3,11 +3,11 @@ package br.com.gastronomia.model;
 
 import br.com.gastronomia.dto.IngredienteCadastroDTO;
 import br.com.gastronomia.util.TipoDeIngrediente;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
-
-import javax.persistence.*;
-import javax.validation.constraints.NotEmpty;
+//import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+//import com.fasterxml.jackson.annotation.JsonManagedReference;
+//
+//import javax.persistence.*;
+//import javax.validation.constraints.NotEmpty;
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
@@ -19,50 +19,50 @@ import java.util.Set;
  * @since 11/08/2017
  * 
  **/
-@Entity
-@Inheritance(strategy = InheritanceType.JOINED)
-@Table(name= "Ingrediente")
-@JsonIgnoreProperties(ignoreUnknown = true)
+//@Entity
+//@Inheritance(strategy = InheritanceType.JOINED)
+//@Table(name= "Ingrediente")
+//@JsonIgnoreProperties(ignoreUnknown = true)
 public class Ingrediente implements Serializable {
 
 	private static final long serialVersionUID = -789863172532826108L;
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name = "IdIngrediente")
+//	@Id
+//	@GeneratedValue(strategy = GenerationType.AUTO)
+//	@Column(name = "IdIngrediente")
 	private long id;
 
-	@NotEmpty
-	@Column(name = "Nome", unique = true)
+//	@NotEmpty
+//	@Column(name = "Nome", unique = true)
 	private String nome;
 
-	@OneToOne(cascade = CascadeType.PERSIST)
-	@JoinColumn(name = "IdUsuario", nullable = false)
+//	@OneToOne(cascade = CascadeType.PERSIST)
+//	@JoinColumn(name = "IdUsuario", nullable = false)
 	private Usuario criador;
 
-	@NotEmpty
-	@Column(name = "Origem")
+//	@NotEmpty
+//	@Column(name = "Origem")
 	private String origem;
 
-	@NotEmpty
-	@Column(name = "Alergenico")
+//	@NotEmpty
+//	@Column(name = "Alergenico")
 	private String alergenico;
 
-	@Column(name= "Status", nullable = false)
+//	@Column(name= "Status", nullable = false)
 	private boolean status;
 
     //Relacionamento implementado -- lado forte
-    @OneToMany(
-    		mappedBy = "ingrediente",
-			fetch = FetchType.EAGER,
-			cascade = {
-					CascadeType.ALL
-			})
-    @JsonManagedReference
+//    @OneToMany(
+//    		mappedBy = "ingrediente",
+//			fetch = FetchType.EAGER,
+//			cascade = {
+//					CascadeType.ALL
+//			})
+//    @JsonManagedReference
 	private Set<IngredienteAtributo> ingredienteAtributo = new HashSet<>();
 	
-	@Column(name = "Tipo")
-    @Enumerated(EnumType.STRING)
+//	@Column(name = "Tipo")
+//    @Enumerated(EnumType.STRING)
 	private TipoDeIngrediente tipo;
 
 	public Ingrediente() {

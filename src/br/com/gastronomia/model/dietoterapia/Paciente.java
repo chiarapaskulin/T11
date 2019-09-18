@@ -1,34 +1,34 @@
 package br.com.gastronomia.model.dietoterapia;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
-import javax.persistence.*;
+//import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+//
+//import javax.persistence.*;
 import java.util.Date;
 
-@Entity
-@Inheritance(strategy = InheritanceType.JOINED)
-@Table(name= "Paciente")
-@JsonIgnoreProperties(ignoreUnknown = true)
+//@Entity
+//@Inheritance(strategy = InheritanceType.JOINED)
+//@Table(name= "Paciente")
+//@JsonIgnoreProperties(ignoreUnknown = true)
 public class Paciente {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "IdPaciente")
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @Column(name = "IdPaciente")
     private long id;
 
-    @Column(name = "Nome", unique = false, nullable = false)
+//    @Column(name = "Nome", unique = false, nullable = false)
     private String nome;
 
-    @Column(name = "Sexo", unique = false, nullable = false)
+//    @Column(name = "Sexo", unique = false, nullable = false)
     private Character sexo;
 
-    @Column(name = "RestricaoAlimentar", unique = false, nullable = false)
+//    @Column(name = "RestricaoAlimentar", unique = false, nullable = false)
     private String restricaoAlimentar;
 
-    @Column(name = "DataNascimento", unique = false, nullable = false)
+//    @Column(name = "DataNascimento", unique = false, nullable = false)
     private Date dataNascimento;
 
-    @Column(name= "Status", nullable = false)
+//    @Column(name= "Status", nullable = false)
     private boolean status;
 
     public Paciente() {

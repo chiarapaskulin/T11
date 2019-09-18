@@ -1,6 +1,6 @@
 package br.com.gastronomia.controllers;
 
-import br.com.gastronomia.util.SimpleKeyGenerator;
+/*import br.com.gastronomia.util.SimpleKeyGenerator;
 import io.jsonwebtoken.Jwts;
 
 import javax.annotation.Priority;
@@ -14,9 +14,9 @@ import java.security.Key;
 
 @Provider
 @JWTTokenNeeded
-@Priority(Priorities.AUTHENTICATION)
-public class JWTTokenNeededFilter implements ContainerRequestFilter {
-
+@Priority(Priorities.AUTHENTICATION)*/
+public class JWTTokenNeededFilter{//} implements ContainerRequestFilter {
+/*
     @Override
     public void filter(ContainerRequestContext requestContext) {
     	try {
@@ -32,5 +32,5 @@ public class JWTTokenNeededFilter implements ContainerRequestFilter {
         } catch (Exception e) {
             requestContext.abortWith(Response.status(Response.Status.UNAUTHORIZED).build());
         }
-    }
+    }*/
 }

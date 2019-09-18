@@ -1,6 +1,6 @@
 package br.com.gastronomia.controllers.dietoterapia;
 
-import br.com.gastronomia.bo.dietoterapia.PacienteBO;
+/*import br.com.gastronomia.bo.dietoterapia.PacienteBO;
 import br.com.gastronomia.dao.dietoterapia.PacienteDAO;
 import br.com.gastronomia.dto.StandardResponseDTO;
 import br.com.gastronomia.exception.PersistenciaException;
@@ -15,9 +15,9 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
 import java.sql.SQLException;
 
-@Path("pacientes")
+@Path("pacientes")*/
 public class PacienteController {
-    private PacienteBO pacienteBO = new PacienteBO();
+ /*   private PacienteBO pacienteBO = new PacienteBO();
     private PacienteDAO usuarioDAO = new PacienteDAO();
     private EncryptUtil encryptUtil = new EncryptUtil();
 
@@ -100,5 +100,5 @@ public class PacienteController {
         }
         return Response.ok().entity(new StandardResponseDTO(true, "Paciente "+paciente.getNome()+ " editado com sucesso!")).status(Response.Status.ACCEPTED).build();
     }
-
+*/
 }

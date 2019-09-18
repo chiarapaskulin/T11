@@ -1,6 +1,6 @@
 package br.com.gastronomia.model;
 
-import org.codehaus.jackson.annotate.JsonIgnore;
+//import org.codehaus.jackson.annotate.JsonIgnore;
 
 import java.io.Serializable;
 
@@ -22,7 +22,7 @@ public class Perfil extends Usuario implements Serializable {
 		super();
 	}
 
-	@JsonIgnore
+//	@JsonIgnore
 	public String getPasswordToValidate(){
 		return passwordToValidate;
 	}

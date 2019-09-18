@@ -1,6 +1,6 @@
 package br.com.gastronomia.util;
 
-import javax.servlet.http.HttpServletRequest;
+//import javax.servlet.http.HttpServletRequest;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -22,14 +22,14 @@ public class Util {
 		
 	}
 	
-	public static String concatenaMensagensRequest(HttpServletRequest request, Exception e, String msg) {
-		String msgErro = "";
-		if (request.getAttribute(msg) != null) {
-			msgErro = (String) request.getAttribute(msg);
-		}
-		msgErro += e.getMessage() + "<br/>" ;
-		return msgErro;
-	}
+//	public static String concatenaMensagensRequest(HttpServletRequest request, Exception e, String msg) {
+////		String msgErro = "";
+////		if (request.getAttribute(msg) != null) {
+////			msgErro = (String) request.getAttribute(msg);
+////		}
+////		msgErro += e.getMessage() + "<br/>" ;
+////		return msgErro;
+////	}
 
 	public static boolean isCPF(String CPF) {
 		// considera-se erro CPF's formados por uma seq��ncia de n�meros iguais 

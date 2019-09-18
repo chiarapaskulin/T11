@@ -1,27 +1,27 @@
 package br.com.gastronomia.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
-import javax.persistence.*;
+//import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+//
+//import javax.persistence.*;
 import java.io.Serializable;
 
 
-@Entity
-@Inheritance(strategy = InheritanceType.JOINED)
-@Table(name= "Nota")
-@JsonIgnoreProperties(ignoreUnknown = true)
+//@Entity
+//@Inheritance(strategy = InheritanceType.JOINED)
+//@Table(name= "Nota")
+//@JsonIgnoreProperties(ignoreUnknown = true)
 public class Nota implements Serializable {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "Id")
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    @Column(name = "Id")
     private long id;
 
-    @Column(name = "Nota", nullable = false)
+//    @Column(name = "Nota", nullable = false)
     private float nota;
 
-    @ManyToOne(cascade = CascadeType.PERSIST)
-    @JoinColumn(name = "IdAvaliador", nullable = false, foreignKey=@ForeignKey(name = "FK_NOTA_AVALIADOR"))
+//    @ManyToOne(cascade = CascadeType.PERSIST)
+//    @JoinColumn(name = "IdAvaliador", nullable = false, foreignKey=@ForeignKey(name = "FK_NOTA_AVALIADOR"))
     private Usuario avaliador;
 
     /**

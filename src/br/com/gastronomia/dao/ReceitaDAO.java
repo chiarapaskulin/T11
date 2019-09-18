@@ -1,14 +1,14 @@
 package br.com.gastronomia.dao;
 
-import br.com.gastronomia.db.GenericHibernateDAO;
+/*import br.com.gastronomia.db.GenericHibernateDAO;
 import br.com.gastronomia.exception.ValidationException;
 import br.com.gastronomia.model.Receita;
 
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.stream.Collectors;*/
 
-public class ReceitaDAO extends GenericHibernateDAO<Receita> {
-
+public class ReceitaDAO{//} extends GenericHibernateDAO<Receita> {
+/*
     public List<Receita> listAllReceitas(){
         List<Receita> receitas = listAll(Receita.class)
                 .stream()
@@ -47,5 +47,5 @@ public class ReceitaDAO extends GenericHibernateDAO<Receita> {
 
     public List<Receita> findReceitaByIdUsuario(Long id) {
         return findMultipleObjects("professor", Receita.class, id);
-    }
+    }*/
 }

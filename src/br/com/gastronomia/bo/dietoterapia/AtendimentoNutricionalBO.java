@@ -10,80 +10,85 @@ import br.com.gastronomia.model.dietoterapia.AtendimentoNutricional;
 import br.com.gastronomia.model.dietoterapia.Paciente;
 
 import java.security.NoSuchAlgorithmException;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class AtendimentoNutricionalBO {
-    private AtendimentoNutricionalDAO atendimentoDAO;
-    private PacienteDAO pacienteDAO;
-    private UsuarioDAO usuarioDAO;
+    //private AtendimentoNutricionalDAO atendimentoDAO;
+    //private PacienteDAO pacienteDAO;
+    //private UsuarioDAO usuarioDAO;
+
+    //MOCK PARA VER E VAL:
+    ArrayList<AtendimentoNutricional> atendimentosNutricionais;
 
     public AtendimentoNutricionalBO() {
-        atendimentoDAO = new AtendimentoNutricionalDAO();
-        pacienteDAO = new PacienteDAO();
-        usuarioDAO = new UsuarioDAO();
+        //atendimentoDAO = new AtendimentoNutricionalDAO();
+        //pacienteDAO = new PacienteDAO();
+        //usuarioDAO = new UsuarioDAO();
+        atendimentosNutricionais = new ArrayList<>();
     }
 
-    public Map<String, List<AtendimentoNutricional>> list() {
-
-        try {
-            return Collections.singletonMap("Atendimentos", atendimentoDAO.listAll(AtendimentoNutricional.class));
-        } catch (final Exception e) {
-            return Collections.singletonMap("Atendimentos", Collections.emptyList());
-        }
+    public ArrayList<AtendimentoNutricional>/*Map<String, List<AtendimentoNutricional>>*/ list() throws EmptyStackException {
+        if(atendimentosNutricionais.isEmpty()) throw new EmptyStackException();
+        return atendimentosNutricionais;
+//        try {
+//            return Collections.singletonMap("Atendimentos", atendimentoDAO.listAll(AtendimentoNutricional.class));
+//        } catch (final Exception e) {
+//            return Collections.singletonMap("Atendimentos", Collections.emptyList());
+//        }
 
 
     }
 
-    public AtendimentoNutricional criarAtendimento(AtendimentoNutricionalDTO dto) throws ValidationException {
-        if (dto == null)
-            throw new IllegalArgumentException();
+    public AtendimentoNutricional criarAtendimento(AtendimentoNutricional an /*AtendimentoNutricionalDTO dto*/) throws ValidationException {
+//        if (dto == null) throw new IllegalArgumentException();
+//        try {
+//            Usuario aluno = usuarioDAO.findUserByID(dto.getIdAluno());
+//            Usuario professor = usuarioDAO.findUserByID(dto.getIdProfessor());
+//            Paciente paciente = pacienteDAO.findPacienteByID(dto.getIdPaciente());
+//
+//            AtendimentoNutricional atendimento = new AtendimentoNutricional(aluno, professor, paciente, dto.getData(), dto.getStatus());
+//            long id = atendimentoDAO.save(atendimento);
+//            atendimento.setId(id);
+//
+//            return atendimento;
+//        }
+//        catch (Exception e) {
+//            throw new ValidationException(e.getMessage());
+//        }
+        if(an==null)throw new ValidationException("Atendimento Nutricional inválido");
+        atendimentosNutricionais.add(an);
+        return an;
+    }
 
-        try {
-            Usuario aluno = usuarioDAO.findUserByID(dto.getIdAluno());
-            Usuario professor = usuarioDAO.findUserByID(dto.getIdProfessor());
-            Paciente paciente = pacienteDAO.findPacienteByID(dto.getIdPaciente());
+//    public boolean /*long*/ deactivateAtendimentoNutricional(/*long id*/int index) throws ValidationException {
+//        return atendimentoDAO.alterStatus(id, false);
+//    }
 
-            AtendimentoNutricional atendimento = new AtendimentoNutricional(aluno, professor, paciente, dto.getData(), dto.getStatus());
-            long id = atendimentoDAO.save(atendimento);
-            atendimento.setId(id);
+//    public long atualizarAtendimento(/*AtendimentoNutricionalDTO dto*/) throws NoSuchAlgorithmException, ValidationException {
+//        if (dto == null)
+//            throw new IllegalArgumentException();
+//
+//        Usuario aluno = usuarioDAO.findUserByID(dto.getIdAluno());
+//        Usuario professor = usuarioDAO.findUserByID(dto.getIdProfessor());
+//        Paciente paciente = pacienteDAO.findPacienteByID(dto.getIdPaciente());
+//
+//        AtendimentoNutricional atendimento = new AtendimentoNutricional(aluno, professor, paciente, dto.getData(), dto.getStatus());
+//        atendimento.setId(dto.getId());
+//
+//        if (atendimentoDAO.findAtendimentoByID(dto.getId()) == null)
+//            return atendimentoDAO.save(atendimento);
+//        else
+//            return atendimentoDAO.updateAtendimento(atendimento);
+//    }
 
+  public AtendimentoNutricional getById(/*long id*/int index) throws ValidationException {
+        if (index > 0) {
+            //AtendimentoNutricional atendimento = atendimentoDAO.findAtendimentoByID(id);
+            AtendimentoNutricional atendimento = atendimentosNutricionais.get(index);
+            if(atendimento==null) throw new ValidationException("Index Inválido");
             return atendimento;
         }
-        catch (Exception e) {
-            throw new ValidationException(e.getMessage());
-        }
-    }
-
-    public long deactivateAtendimentoNutricional(long id) throws ValidationException {
-        return atendimentoDAO.alterStatus(id, false);
-    }
-
-    public long atualizarAtendimento(AtendimentoNutricionalDTO dto) throws NoSuchAlgorithmException, ValidationException {
-        if (dto == null)
-            throw new IllegalArgumentException();
-
-        Usuario aluno = usuarioDAO.findUserByID(dto.getIdAluno());
-        Usuario professor = usuarioDAO.findUserByID(dto.getIdProfessor());
-        Paciente paciente = pacienteDAO.findPacienteByID(dto.getIdPaciente());
-
-        AtendimentoNutricional atendimento = new AtendimentoNutricional(aluno, professor, paciente, dto.getData(), dto.getStatus());
-        atendimento.setId(dto.getId());
-
-        if (atendimentoDAO.findAtendimentoByID(dto.getId()) == null)
-            return atendimentoDAO.save(atendimento);
-        else
-            return atendimentoDAO.updateAtendimento(atendimento);
-    }
-
-  public AtendimentoNutricional getById(long id) throws ValidationException {
-        if (id > 0) {
-            AtendimentoNutricional atendimento = atendimentoDAO.findAtendimentoByID(id);
-            return atendimento;
-        }
-        throw new ValidationException("inválido");
-
+        throw new ValidationException("Index Inválido");
     }
 
 }

@@ -77,14 +77,15 @@ public class IngredienteBO {
 		return ingredientes;
 	}
 
-	public Ingrediente getIngredienteById(/*long id*/int index) throws ValidationException {
-		if (index > 0) {
+	public Ingrediente getIngredienteById(long id) throws ValidationException {
+		if (id > 0) {
 			//return ingredienteDAO.findIngredienteById(id);
-			Ingrediente ing = ingredientes.get(index);
-			if(ing==null) throw new ValidationException("Index Inválido");
-			return ing;
+			for(Ingrediente ing : ingredientes){
+				if(ing.getId() == id) return ing;
+			}
+			throw new ValidationException("ID Inválido");
 		}
-		throw new ValidationException("Index inválido");
+		throw new ValidationException("ID Inválido");
 
 	}
 

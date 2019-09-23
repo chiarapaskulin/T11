@@ -61,8 +61,8 @@ public class PacienteBO {
 //        HashMap<String, List<Paciente>> list = new HashMap<String, List<Paciente>>();
 //        pacientes = (ArrayList<Paciente>) pacienteDAO.listAll(Paciente.class);
 //        list.put("Pacientes", pacientes);
-        if(pacientes.isEmpty()) throw new EmptyStackException();
-        return pacientes;
+            if(pacientes.isEmpty()) throw new EmptyStackException();
+            return pacientes;
     }
 
 

@@ -208,16 +208,17 @@ public class UsuarioBO {
 		throw new ValidationException("Matrícula Inválida");
 	}
 	
-	public Usuario getUserById(/*long id*/int index) throws ValidationException {
-		if (index > 0) {
+	public Usuario getUserById(long id) throws ValidationException {
+		if (id > 0) {
 			/*Usuario usuario = usuarioDAO.findUserByID(id);
 			usuario.setSenha("");
 			return usuario;*/
-			Usuario user = usuarios.get(index);
-			if(user==null) throw new ValidationException("Index Inválido");
-			return user;
+			for(Usuario user : usuarios){
+				if(user.getId() == id) return user;
+			}
+			throw new ValidationException("ID Inválido");
 		}
-		throw new ValidationException("Index Inválido");
+		throw new ValidationException("ID Inválido");
 
 	}
 

@@ -91,13 +91,14 @@ public class GrupoReceitasBO {
 //		return listGrupoReceitas;
 //	}
 
-	public GrupoReceitas getGroupByCod(/*long id*/int index) throws ValidationException {
-		if (index != 0) {
+	public GrupoReceitas getGroupByCod(long id) throws ValidationException {
+		if (id != 0) {
 			//return grupoReceitasDAO.findGroupByID(id);
-			GrupoReceitas gReceitas = grupoReceitas.get(index);
-			if(gReceitas==null) throw new ValidationException("Index Inválido");
-			return gReceitas;
+			for(GrupoReceitas gpr : grupoReceitas){
+				if(gpr.getId() == id) return gpr;
+			}
+			throw new ValidationException("ID Inválido");
 		}
-		throw new ValidationException("Index Inválido");
+		throw new ValidationException("ID Inválido");
 	}
 }

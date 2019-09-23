@@ -81,14 +81,15 @@ public class AtendimentoNutricionalBO {
 //            return atendimentoDAO.updateAtendimento(atendimento);
 //    }
 
-  public AtendimentoNutricional getById(/*long id*/int index) throws ValidationException {
-        if (index > 0) {
+  public AtendimentoNutricional getById( long id) throws ValidationException {
+        if (id > 0) {
             //AtendimentoNutricional atendimento = atendimentoDAO.findAtendimentoByID(id);
-            AtendimentoNutricional atendimento = atendimentosNutricionais.get(index);
-            if(atendimento==null) throw new ValidationException("Index Inválido");
-            return atendimento;
+            for(AtendimentoNutricional atn : atendimentosNutricionais){
+                if(atn.getId() == id) return atn;
+            }
+            throw new ValidationException("ID Inválido");
         }
-        throw new ValidationException("Index Inválido");
+        throw new ValidationException("ID Inválido");
     }
 
 }

@@ -93,14 +93,15 @@ public class ReceitaBO {
         return listReceitas;
     }*/
 
-    public Receita getReceitaById(/*Long id*/int index) throws ValidationException {
-        if (index > 0) {
+    public Receita getReceitaById(long id) throws ValidationException {
+        if (id > 0) {
             //return receitaDAO.findReceitaById(id);
-            Receita rec = receitas.get(index);
-            if(rec==null) throw new ValidationException("Index Inválido");
-            return rec;
+            for(Receita rec : receitas){
+                if(rec.getId() == id) return rec;
+            }
+            throw new ValidationException("ID Inválido");
         }
-        throw new ValidationException("invalido");
+        throw new ValidationException("ID Inválido");
 
     }
 

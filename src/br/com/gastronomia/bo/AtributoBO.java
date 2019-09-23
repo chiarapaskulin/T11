@@ -99,13 +99,14 @@ public class AtributoBO {
 //		return listAtributos;
 //	}
 
-	public Atributo getAtributoById(/*long id*/int index) throws ValidationException {
-		if (index != 0) {
-			Atributo a = atributos.get(index);
-			if(a==null) throw new ValidationException("Index Inválido");
-			return a;
+	public Atributo getAtributoById(long id) throws ValidationException {
+		if (id!= 0) {
+			for(Atributo atb : atributos){
+				if(atb.getId() == id) return atb;
+			}
+			throw new ValidationException("ID Inválido");
 		}
-		throw new ValidationException("Index Iválido");
+		throw new ValidationException("ID Inválido");
 	}
 
 }

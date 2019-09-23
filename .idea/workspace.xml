@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0f957dd-ebab-4925-9c53-6108ed1a07a7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/bo/AtributoBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/AtributoBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/bo/GrupoReceitasBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/GrupoReceitasBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/bo/IngredienteBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/IngredienteBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/bo/ReceitaBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/ReceitaBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/bo/UsuarioBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/UsuarioBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/PacienteBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/PacienteBO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,38 +28,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/PacienteBO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/ReceitaBO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/UsuarioBO.java">
+        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="215" column="41" lean-forward="true" selection-start-line="215" selection-start-column="41" selection-end-line="215" selection-end-column="41" />
+            <state relative-caret-position="-372">
+              <caret line="49" column="47" lean-forward="true" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dto/AtendimentoNutricionalDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -136,13 +115,13 @@
         <option value="$PROJECT_DIR$/src/br/com/gastronomia/dto/UsuarioFormattedDTO.java" />
         <option value="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/AtendimentoNutricional_JUnit.java" />
         <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/PacienteBO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.java" />
         <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/GrupoReceitasBO.java" />
         <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.java" />
         <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/IngredienteBO.java" />
         <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/AtributoBO.java" />
         <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/ReceitaBO.java" />
         <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/UsuarioBO.java" />
+        <option value="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.java" />
       </list>
     </option>
   </component>
@@ -234,7 +213,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569262329933" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569264407697" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -256,20 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Paciente_JUnit">
-    <configuration name="Paciente_JUnit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL.Paciente_JUnit" />
-      <module name="T11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.gastronomia.TESTES_VER_E_VAL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Paciente_JUnit.testeInvalido7">
     <configuration name="Paciente_JUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T11" />
       <extension name="coverage">
@@ -317,6 +283,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Paciente_JUnit.testeInvalido7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="T11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.gastronomia.TESTES_VER_E_VAL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL.Paciente_JUnit" />
+      <option name="METHOD_NAME" value="testeInvalido7" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Paciente_JUnit.testeValido3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T11" />
       <extension name="coverage">
@@ -335,11 +317,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Paciente_JUnit.testeInvalido7" />
         <item itemvalue="JUnit.Paciente_JUnit" />
         <item itemvalue="JUnit.Paciente_JUnit.testeInvalido6" />
         <item itemvalue="JUnit.Paciente_JUnit.testeInvalido5" />
         <item itemvalue="JUnit.Paciente_JUnit.testeValido3" />
-        <item itemvalue="Application.Paciente_JUnit" />
       </list>
     </recent_temporary>
   </component>
@@ -356,14 +338,11 @@
       <workItem from="1568685015355" duration="7460000" />
       <workItem from="1568767074254" duration="2772000" />
       <workItem from="1568902849098" duration="2417000" />
-      <workItem from="1569095079996" duration="9090000" />
+      <workItem from="1569095079996" duration="10897000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Paciente_JUnit - 2019.09.23 at 14h 20m 29s.xml">
-      <configuration name="Paciente_JUnit" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Paciente_JUnit_testeInvalido5 - 2019.09.23 at 14h 24m 56s.xml">
       <configuration name="Paciente_JUnit.testeInvalido5" configurationId="JUnit" />
     </history-entry>
@@ -391,15 +370,18 @@
     <history-entry file="Paciente_JUnit - 2019.09.23 at 15h 07m 24s.xml">
       <configuration name="Paciente_JUnit" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Paciente_JUnit_testeInvalido7 - 2019.09.23 at 15h 23m 37s.xml">
+      <configuration name="Paciente_JUnit.testeInvalido7" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21739000" />
+    <option name="totallyTimeSpent" value="23546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2874494" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25910932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -714,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dto/AtendimentoNutricionalDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/Atributo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-281">
@@ -770,20 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1717">
-          <caret line="203" column="27" lean-forward="true" selection-start-line="203" selection-start-column="27" selection-end-line="203" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testeValido1#0;class#Paciente_JUnit#0" />
-            <element signature="method#testeValido3#0;class#Paciente_JUnit#0" />
-            <element signature="method#testeValido4#0;class#Paciente_JUnit#0" />
-            <element signature="method#testeValido4#0;class#Paciente_JUnit#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/AtendimentoNutricional_JUnit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -829,26 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="91" column="42" selection-start-line="91" selection-start-column="42" selection-end-line="91" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/PacienteBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/ReceitaBO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -863,6 +804,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="215" column="41" lean-forward="true" selection-start-line="215" selection-start-column="41" selection-end-line="215" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="274" lean-forward="true" selection-start-line="274" selection-end-line="274" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testeValido1#0;class#Paciente_JUnit#0" />
+            <element signature="method#testeValido3#0;class#Paciente_JUnit#0" />
+            <element signature="method#testeValido4#0;class#Paciente_JUnit#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/PacienteBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <caret line="58" column="67" lean-forward="true" selection-start-line="58" selection-start-column="67" selection-end-line="58" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dto/AtendimentoNutricionalDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-372">
+          <caret line="49" column="47" lean-forward="true" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

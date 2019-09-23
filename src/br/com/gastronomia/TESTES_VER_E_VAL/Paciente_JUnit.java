@@ -186,10 +186,10 @@ public class Paciente_JUnit {
         pbo.criarPaciente(p);
     }
 
-    @org.junit.Test (expected = EmptyStackException.class)
+    @org.junit.Test (expected = ValidationException.class)
     public void testeInvalido5() throws Exception{
         PacienteBO pbo = new PacienteBO();
-        pbo.list();
+        pbo.criarPaciente(null);
     }
 
     @org.junit.Test (expected = ValidationException.class)
@@ -229,4 +229,46 @@ public class Paciente_JUnit {
         pbo.getUserById(1);
     }
 
+    @org.junit.Test (expected = ValidationException.class)
+    public void testeInvalido7() throws Exception{
+        Paciente p1 = new Paciente();
+        p1.setId(27402);
+        p1.setNome("Mariana");
+        p1.setSexo('F');
+        p1.setRestricaoAlimentar("Vegetariano");
+        Date d1 = new Date(2000,04,30);
+        p1.setDataNascimento(d1);
+        p1.setStatus(true);
+
+        Paciente p2 = new Paciente();
+        p2.setId(84012);
+        p2.setNome("José");
+        p2.setSexo('M');
+        p2.setRestricaoAlimentar("Ovovegetariano");
+        Date d2 = new Date(2001,04,02);
+        p2.setDataNascimento(d2);
+        p2.setStatus(true);
+
+        Paciente p3 = new Paciente();
+        p3.setId(73819);
+        p3.setNome("Lucas");
+        p3.setSexo('M');
+        p3.setRestricaoAlimentar("Eutrófico");
+        Date d3 = new Date(2000,11,30);
+        p3.setDataNascimento(d3);
+        p3.setStatus(true);
+
+        PacienteBO pbo = new PacienteBO();
+        pbo.criarPaciente(p1);
+        pbo.criarPaciente(p2);
+        pbo.criarPaciente(p3);
+
+        pbo.getUserById(-1);
+    }
+
+    @org.junit.Test (expected = EmptyStackException.class)
+    public void testeInvalido8() throws Exception{
+        PacienteBO pbo = new PacienteBO();
+        pbo.list();
+    }
 }

@@ -40,8 +40,9 @@ public class PacienteBO {
             catch (Exception e) {
                 throw new ValidationException(e.getMessage());
             }
+        }else{
+            throw new ValidationException("Paciente null");
         }
-        return null;
     }
 
     public Paciente getUserById(long id) throws ValidationException {

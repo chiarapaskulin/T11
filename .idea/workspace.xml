@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0f957dd-ebab-4925-9c53-6108ed1a07a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e0f957dd-ebab-4925-9c53-6108ed1a07a7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="801">
+              <caret line="270" column="35" selection-start-line="270" selection-start-column="35" selection-end-line="270" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#testeValido3#0;class#Paciente_JUnit#0" />
@@ -226,7 +224,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569278680777" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569279372221" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -248,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Paciente_JUnit.testeInvalido7">
+  <component name="RunManager" selected="JUnit.Paciente_JUnit">
     <configuration name="Paciente_JUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T11" />
       <extension name="coverage">
@@ -330,8 +328,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Paciente_JUnit.testeInvalido7" />
         <item itemvalue="JUnit.Paciente_JUnit" />
+        <item itemvalue="JUnit.Paciente_JUnit.testeInvalido7" />
         <item itemvalue="JUnit.Paciente_JUnit.testeInvalido6" />
         <item itemvalue="JUnit.Paciente_JUnit.testeInvalido5" />
         <item itemvalue="JUnit.Paciente_JUnit.testeValido3" />
@@ -351,7 +349,7 @@
       <workItem from="1568685015355" duration="7460000" />
       <workItem from="1568767074254" duration="2772000" />
       <workItem from="1568902849098" duration="2417000" />
-      <workItem from="1569095079996" duration="11985000" />
+      <workItem from="1569095079996" duration="12592000" />
     </task>
     <servers />
   </component>
@@ -388,10 +386,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24634000" />
+    <option name="totallyTimeSpent" value="25241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25910932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -411,7 +410,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.47069272" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.47069272" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
@@ -863,8 +862,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="801">
+          <caret line="270" column="35" selection-start-line="270" selection-start-column="35" selection-end-line="270" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#testeValido3#0;class#Paciente_JUnit#0" />

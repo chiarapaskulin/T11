@@ -43,14 +43,16 @@ public class PacienteBO {
         }
         return null;
     }
-    public Paciente getUserById(/*long id*/int index) throws ValidationException {
-        if (index > 0) {
+
+    public Paciente getUserById(long id) throws ValidationException {
+        if (id > 0) {
             //Paciente paciente = pacienteDAO.findPacienteByID(id);
-            Paciente paciente = pacientes.get(index);
-            if(paciente==null) throw new ValidationException("Index Inválido");
-            return paciente;
+            for(Paciente pac : pacientes){
+                if(pac.getId() == id) return pac;
+            }
+            throw new ValidationException("ID Inválido");
         }
-        throw new ValidationException("Index Inválido");
+        throw new ValidationException("ID Inválido");
 
     }
 

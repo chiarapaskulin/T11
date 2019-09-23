@@ -1,13 +1,13 @@
 package br.com.gastronomia.dto;
 
 import br.com.gastronomia.model.Usuario;
-import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+//import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 
 import java.io.Serializable;
 import java.util.LinkedList;
 import java.util.List;
 
-@JsonIgnoreProperties(ignoreUnknown=true)
+//@JsonIgnoreProperties(ignoreUnknown=true)
 public class UsuarioFormattedDTO implements Serializable {
 	private static final long serialVersionUID = -789863172532826108L;
 	private String cpf;

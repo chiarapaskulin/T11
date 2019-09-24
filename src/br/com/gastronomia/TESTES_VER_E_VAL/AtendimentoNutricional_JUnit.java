@@ -116,8 +116,46 @@ public class AtendimentoNutricional_JUnit {
         anbo.criarAtendimento(null);
     }
 
+
     @org.junit.Test (expected = ValidationException.class)
     public void testeInvalido2() throws Exception{
+        AtendimentoNutricional an1 = new AtendimentoNutricional();
+        an1.setPaciente(new Paciente());
+        an1.setAluno(new Usuario());
+        an1.setProfessor(new Usuario());
+        Date d1 = new Date(2018,2,22);
+        an1.setData(d1);
+        an1.setStatus(true);
+        an1.setId(51247);
+
+        AtendimentoNutricional an2 = new AtendimentoNutricional();
+        an2.setPaciente(new Paciente());
+        an2.setAluno(new Usuario());
+        an2.setProfessor(new Usuario());
+        Date d2 = new Date(2017,4,23);
+        an2.setData(d2);
+        an2.setStatus(true);
+        an2.setId(42965);
+
+        AtendimentoNutricional an3 = new AtendimentoNutricional();
+        an3.setPaciente(new Paciente());
+        an3.setAluno(new Usuario());
+        an3.setProfessor(new Usuario());
+        Date d3 = new Date(2019,6,24);
+        an3.setData(d3);
+        an3.setStatus(true);
+        an3.setId(15206);
+
+        AtendimentoNutricionalBO anbo = new AtendimentoNutricionalBO();
+        anbo.criarAtendimento(an1);
+        anbo.criarAtendimento(an2);
+        anbo.criarAtendimento(an3);
+
+        anbo.getById(1);
+    }
+
+    @org.junit.Test (expected = ValidationException.class)
+    public void testeInvalido3() throws Exception{
         AtendimentoNutricional an1 = new AtendimentoNutricional();
         an1.setPaciente(new Paciente());
         an1.setAluno(new Usuario());
@@ -151,43 +189,6 @@ public class AtendimentoNutricional_JUnit {
         anbo.criarAtendimento(an3);
 
         anbo.getById(-1);
-    }
-
-    @org.junit.Test (expected = ValidationException.class)
-    public void testeInvalido3() throws Exception{
-        AtendimentoNutricional an1 = new AtendimentoNutricional();
-        an1.setPaciente(new Paciente());
-        an1.setAluno(new Usuario());
-        an1.setProfessor(new Usuario());
-        Date d1 = new Date(2018,2,22);
-        an1.setData(d1);
-        an1.setStatus(true);
-        an1.setId(51247);
-
-        AtendimentoNutricional an2 = new AtendimentoNutricional();
-        an2.setPaciente(new Paciente());
-        an2.setAluno(new Usuario());
-        an2.setProfessor(new Usuario());
-        Date d2 = new Date(2017,4,23);
-        an2.setData(d2);
-        an2.setStatus(true);
-        an2.setId(42965);
-
-        AtendimentoNutricional an3 = new AtendimentoNutricional();
-        an3.setPaciente(new Paciente());
-        an3.setAluno(new Usuario());
-        an3.setProfessor(new Usuario());
-        Date d3 = new Date(2019,6,24);
-        an3.setData(d3);
-        an3.setStatus(true);
-        an3.setId(15206);
-
-        AtendimentoNutricionalBO anbo = new AtendimentoNutricionalBO();
-        anbo.criarAtendimento(an1);
-        anbo.criarAtendimento(an2);
-        anbo.criarAtendimento(an3);
-
-        anbo.getById(12345);
     }
 
     @org.junit.Test (expected = EmptyStackException.class)

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0f957dd-ebab-4925-9c53-6108ed1a07a7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/AtendimentoNutricional_JUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/AtendimentoNutricional_JUnit.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,8 +31,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/AtendimentoNutricional_JUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="196" column="5" lean-forward="true" selection-start-line="196" selection-start-column="5" selection-end-line="196" selection-end-column="5" />
+            <state relative-caret-position="410">
+              <caret line="120" column="34" lean-forward="true" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="265" column="28" selection-start-line="265" selection-start-column="28" selection-end-line="266" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -236,7 +249,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569334572726" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569334821073" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -361,14 +374,11 @@
       <workItem from="1568685015355" duration="7460000" />
       <workItem from="1568767074254" duration="2772000" />
       <workItem from="1568902849098" duration="2417000" />
-      <workItem from="1569095079996" duration="16777000" />
+      <workItem from="1569095079996" duration="17035000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Paciente_JUnit_testeInvalido5 - 2019.09.23 at 14h 27m 20s.xml">
-      <configuration name="Paciente_JUnit.testeInvalido5" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Paciente_JUnit_testeInvalido5 - 2019.09.23 at 14h 29m 38s.xml">
       <configuration name="Paciente_JUnit.testeInvalido5" configurationId="JUnit" />
     </history-entry>
@@ -396,15 +406,18 @@
     <history-entry file="Paciente_JUnit - 2019.09.23 at 19h 57m 53s.xml">
       <configuration name="Paciente_JUnit" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AtendimentoNutricional_JUnit - 2019.09.24 at 11h 16m 16s.xml">
+      <configuration name="AtendimentoNutricional_JUnit" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29426000" />
+    <option name="totallyTimeSpent" value="29684000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="633" y="0" width="653" height="687" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09443507" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22510122" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -843,16 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="128" selection-start-line="128" selection-end-line="142" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -863,10 +866,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="265" column="28" selection-start-line="265" selection-start-column="28" selection-end-line="266" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/AtendimentoNutricional_JUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="196" column="5" lean-forward="true" selection-start-line="196" selection-start-column="5" selection-end-line="196" selection-end-column="5" />
+        <state relative-caret-position="410">
+          <caret line="120" column="34" lean-forward="true" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

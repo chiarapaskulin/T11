@@ -35,7 +35,7 @@ public class Ingrediente_JUnit {
     }
 
     @org.junit.Test
-    public void testeValido3() throws Exception {
+    public void testeValido3() {
         ArrayList<Ingrediente> ingredientes = new ArrayList<>();
 
         Ingrediente i = new Ingrediente();
@@ -60,5 +60,57 @@ public class Ingrediente_JUnit {
         ibo.createIngrediente(i2);
 
         assertEquals(ingredientes, ibo.listIngrediente());
+    }
+
+    @org.junit.Test
+    public void testeInvalido1() {
+
+        IngredienteBO ibo = new IngredienteBO();
+
+        assertFalse(ibo.createIngrediente(null));
+    }
+
+    @org.junit.Test (expected = ValidationException.class)
+    public void testeInvalido2() throws Exception {
+        Ingrediente i = new Ingrediente();
+        i.setId(5501);
+
+        Ingrediente i2 = new Ingrediente();
+        i.setId(5502);
+
+        Ingrediente i3 = new Ingrediente();
+        i.setId(5503);
+
+        IngredienteBO ibo = new IngredienteBO();
+        ibo.createIngrediente(i);
+        ibo.createIngrediente(i2);
+        ibo.createIngrediente(i3);
+
+        ibo.getIngredienteById(5504);
+    }
+
+    @org.junit.Test (expected = ValidationException.class)
+    public void testeInvalido3() throws Exception {
+        Ingrediente i = new Ingrediente();
+        i.setId(5501);
+
+        Ingrediente i2 = new Ingrediente();
+        i.setId(5502);
+
+        Ingrediente i3 = new Ingrediente();
+        i.setId(5503);
+
+        IngredienteBO ibo = new IngredienteBO();
+        ibo.createIngrediente(i);
+        ibo.createIngrediente(i2);
+        ibo.createIngrediente(i3);
+
+        ibo.getIngredienteById(-1);
+    }
+
+    @org.junit.Test (expected = EmptyStackException.class)
+    public void testeInvalido4() {
+        IngredienteBO ibo = new IngredienteBO();
+        ibo.listIngrediente();
     }
 }

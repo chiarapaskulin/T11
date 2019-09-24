@@ -44,6 +44,7 @@ public class Ingrediente_JUnit {
         i.setCriador(new Usuario());
         i.setAlergenico("Nenhum");
         i.setTipo(TipoDeIngrediente.COMUM);
+        ingredientes.add(i);
 
         Ingrediente i2 = new Ingrediente();
         i2.setId(5502);
@@ -51,6 +52,7 @@ public class Ingrediente_JUnit {
         i2.setCriador(new Usuario());
         i2.setAlergenico("Nenhum");
         i2.setTipo(TipoDeIngrediente.COMUM);
+        ingredientes.add(i2);
 
         IngredienteBO ibo = new IngredienteBO();
 

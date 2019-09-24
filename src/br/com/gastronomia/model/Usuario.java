@@ -161,10 +161,10 @@ public class Usuario implements Serializable {
 		return (this.cpf != null);
 	}
 
-	@Override
+	/*@Override
 	public String toString() {
 		return "Usuario [id=" + id + ", cpf=" + cpf + ", email=" + email + ", matricula=" + matricula + ", nome=" + nome
 				+ ", senha=" + senha + ", tipo=" + tipo.toString() + ", status=" + status + "]";
-	}
+	}*/
 
 }

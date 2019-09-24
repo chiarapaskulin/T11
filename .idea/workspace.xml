@@ -2,15 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0f957dd-ebab-4925-9c53-6108ed1a07a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Atributo_JUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Usuario_JUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/AtendimentoNutricional_JUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/AtendimentoNutricional_JUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/TESTES_VER_E_VAL/AtendimentoNutricional_JUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/TESTES_VER_E_VAL/AtendimentoNutricional_JUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/authorization/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/authorization/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/AtributoBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/AtributoBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/GrupoReceitasBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/GrupoReceitasBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/ImagemBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/ImagemBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/IngredienteBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/IngredienteBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/ReceitaBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/ReceitaBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/UsuarioBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/UsuarioBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/dietoterapia/PacienteBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/dietoterapia/PacienteBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/dietoterapia/Teste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/dietoterapia/Teste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/APIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/APIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/AtributoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/AtributoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/CORSFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/CORSFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/GrupoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/GrupoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/ImagemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/ImagemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/IngredienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/IngredienteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/JWTTokenNeeded.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/JWTTokenNeeded.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/JWTTokenNeededFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/JWTTokenNeededFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/ReceitaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/ReceitaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/UsuarioController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/dietoterapia/AtendimentoNutricionalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/dietoterapia/AtendimentoNutricionalController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/dietoterapia/PacienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/dietoterapia/PacienteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/AtributoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/AtributoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/GrupoReceitasDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/GrupoReceitasDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/ImagemDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/ImagemDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/IngredienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/IngredienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/ReceitaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/ReceitaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/UsuarioDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/UsuarioDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/dietoterapia/AtendimentoNutricionalDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/dietoterapia/AtendimentoNutricionalDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/dietoterapia/PacienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/dietoterapia/PacienteDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/db/GeneratedDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/db/GeneratedDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/db/GenericHibernateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/db/GenericHibernateDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/db/HibernateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/db/HibernateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/AtendimentoNutricionalDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/AtendimentoNutricionalDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/IngredienteAtributoDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/IngredienteAtributoDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/IngredienteCadastroDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/IngredienteCadastroDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/QuestionAnswerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/QuestionAnswerDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/StandardResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/StandardResponseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/UsuarioFormattedDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/UsuarioFormattedDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/UsuarioLoginDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/UsuarioLoginDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/exception/PersistenciaException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/exception/PersistenciaException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/exception/UsuarioInativoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/exception/UsuarioInativoException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/exception/ValidationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/exception/ValidationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/imp/GenericDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/imp/GenericDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Atributo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Atributo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/GrupoReceitas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/GrupoReceitas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Imagem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Imagem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Ingrediente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Ingrediente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/IngredienteAtributo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/IngredienteAtributo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/IngredienteAtributoId.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/IngredienteAtributoId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Nota.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Nota.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Perfil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Perfil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Receita$Tipo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Receita$Tipo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Receita.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Receita.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/ReceitaImagem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/ReceitaImagem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/ReceitaImagemId.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/ReceitaImagemId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/ReceitaIngrediente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/ReceitaIngrediente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/ReceitaIngredienteId.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/ReceitaIngredienteId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Token.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/dietoterapia/AtendimentoNutricional.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/dietoterapia/AtendimentoNutricional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/dietoterapia/Paciente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/dietoterapia/Paciente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/ConexaoUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/ConexaoUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/Constantes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/Constantes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/EncryptUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/EncryptUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/ExportCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/ExportCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/KeyGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/KeyGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/LogParametrosSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/LogParametrosSession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/MensagemContantes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/MensagemContantes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/ReadProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/ReadProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/SendMail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/SendMail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/SimpleKeyGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/SimpleKeyGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/TipoDeIngrediente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/TipoDeIngrediente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/TipoDeUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/TipoDeUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/TokenGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/TokenGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/Validator$validaCpf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/Validator$validaCpf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/Validator.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -25,67 +111,6 @@
     </option>
     <expand />
     <select />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/AtendimentoNutricional_JUnit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="120" column="34" lean-forward="true" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="265" column="28" selection-start-line="265" selection-start-column="28" selection-end-line="266" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/PacienteBO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dto/AtendimentoNutricionalDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -104,149 +129,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/dao/dietoterapia/AtendimentoNutricionalDAO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/dao/dietoterapia/PacienteDAO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/dao/GrupoReceitasDAO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/dao/ImagemDAO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/dao/IngredienteDAO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/dao/ReceitaDAO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/dao/UsuarioDAO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/db/GenericHibernateDAO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/APIController.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/AtributoController.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/AuthController.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/CORSFilter.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/GrupoController.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/ImagemController.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/IngredienteController.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/JWTTokenNeeded.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/JWTTokenNeededFilter.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/ReceitaController.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/UsuarioController.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/dietoterapia/PacienteController.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/controllers/dietoterapia/AtendimentoNutricionalController.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/Atributo.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/GrupoReceitas.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/Imagem.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/Ingrediente.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/IngredienteAtributo.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/Nota.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/Perfil.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/Receita.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaImagem.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaIngrediente.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/Usuario.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/util/ConexaoUtil.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/util/LogParametrosSession.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/util/SendMail.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/util/TokenGenerator.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/util/Util.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/dietoterapia/AtendimentoNutricional.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/Teste.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/ImagemBO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/model/dietoterapia/Paciente.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/dto/UsuarioFormattedDTO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/GrupoReceitasBO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/IngredienteBO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/AtributoBO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/ReceitaBO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/UsuarioBO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/PacienteBO.java" />
-        <option value="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/AtendimentoNutricional_JUnit.java" />
-      </list>
-    </option>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="949" />
-    <option name="width" value="980" />
-    <option name="height" value="1031" />
-  </component>
+  <component name="ProjectId" id="1RIFiLnwWRbrKHNyIO13OW9Hfeq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="T11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T11" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T11" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gastronomia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T11" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gastronomia" type="462c0819:PsiDirectoryNode" />
-              <item name="bo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T11" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gastronomia" type="462c0819:PsiDirectoryNode" />
-              <item name="bo" type="462c0819:PsiDirectoryNode" />
-              <item name="dietoterapia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T11" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gastronomia" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T11" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gastronomia" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T11" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gastronomia" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="dietoterapia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="T11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="T11" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gastronomia" type="462c0819:PsiDirectoryNode" />
-              <item name="TESTES_VER_E_VAL" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569334821073" />
@@ -272,8 +165,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AtendimentoNutricional_JUnit">
-    <configuration name="AtendimentoNutricional_JUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Atributo_JUnit">
+    <configuration name="Atributo_JUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T11" />
       <extension name="coverage">
         <pattern>
@@ -282,13 +175,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL" />
-      <option name="MAIN_CLASS_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL.AtendimentoNutricional_JUnit" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL.Atributo_JUnit" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Paciente_JUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Atributo_JUnit.test_get_by_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T11" />
       <extension name="coverage">
         <pattern>
@@ -297,13 +190,45 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL" />
-      <option name="MAIN_CLASS_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL.Paciente_JUnit" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL.Atributo_JUnit" />
+      <option name="METHOD_NAME" value="test_get_by_id" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Atributo_JUnit.test_to_String_valido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="T11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.gastronomia.TESTES_VER_E_VAL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL.Atributo_JUnit" />
+      <option name="METHOD_NAME" value="test_to_String_valido" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Usuario_JUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="T11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.gastronomia.TESTES_VER_E_VAL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL.Usuario_JUnit" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Paciente_JUnit.testeInvalido5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Usuario_JUnit.test_to_String_valido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T11" />
       <extension name="coverage">
         <pattern>
@@ -312,40 +237,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL" />
-      <option name="MAIN_CLASS_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL.Paciente_JUnit" />
-      <option name="METHOD_NAME" value="testeInvalido5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Paciente_JUnit.testeInvalido6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="T11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.gastronomia.TESTES_VER_E_VAL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL" />
-      <option name="MAIN_CLASS_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL.Paciente_JUnit" />
-      <option name="METHOD_NAME" value="testeInvalido6" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Paciente_JUnit.testeInvalido7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="T11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.gastronomia.TESTES_VER_E_VAL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL" />
-      <option name="MAIN_CLASS_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL.Paciente_JUnit" />
-      <option name="METHOD_NAME" value="testeInvalido7" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL.Usuario_JUnit" />
+      <option name="METHOD_NAME" value="test_to_String_valido" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -353,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AtendimentoNutricional_JUnit" />
-        <item itemvalue="JUnit.Paciente_JUnit" />
-        <item itemvalue="JUnit.Paciente_JUnit.testeInvalido7" />
-        <item itemvalue="JUnit.Paciente_JUnit.testeInvalido6" />
-        <item itemvalue="JUnit.Paciente_JUnit.testeInvalido5" />
+        <item itemvalue="JUnit.Atributo_JUnit" />
+        <item itemvalue="JUnit.Usuario_JUnit" />
+        <item itemvalue="JUnit.Usuario_JUnit.test_to_String_valido" />
+        <item itemvalue="JUnit.Atributo_JUnit.test_get_by_id" />
+        <item itemvalue="JUnit.Atributo_JUnit.test_to_String_valido" />
       </list>
     </recent_temporary>
   </component>
@@ -378,514 +271,26 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="Paciente_JUnit_testeInvalido5 - 2019.09.23 at 14h 29m 38s.xml">
-      <configuration name="Paciente_JUnit.testeInvalido5" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Paciente_JUnit - 2019.09.23 at 14h 33m 58s.xml">
-      <configuration name="Paciente_JUnit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Paciente_JUnit - 2019.09.23 at 14h 34m 35s.xml">
-      <configuration name="Paciente_JUnit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Paciente_JUnit_testeInvalido5 - 2019.09.23 at 14h 57m 12s.xml">
-      <configuration name="Paciente_JUnit.testeInvalido5" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Paciente_JUnit_testeInvalido6 - 2019.09.23 at 15h 06m 15s.xml">
-      <configuration name="Paciente_JUnit.testeInvalido6" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Paciente_JUnit - 2019.09.23 at 15h 07m 24s.xml">
-      <configuration name="Paciente_JUnit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Paciente_JUnit_testeInvalido7 - 2019.09.23 at 15h 23m 37s.xml">
-      <configuration name="Paciente_JUnit.testeInvalido7" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Paciente_JUnit - 2019.09.23 at 19h 56m 16s.xml">
-      <configuration name="Paciente_JUnit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Paciente_JUnit - 2019.09.23 at 19h 57m 53s.xml">
-      <configuration name="Paciente_JUnit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AtendimentoNutricional_JUnit - 2019.09.24 at 11h 16m 16s.xml">
-      <configuration name="AtendimentoNutricional_JUnit" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="29684000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22510122" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3250444" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36589697" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.47069272" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32955465" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.24939272" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30445343" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3285968" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaIngrediente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-start-column="2" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/ReceitaIngredienteId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="166" column="12" lean-forward="true" selection-start-line="166" selection-start-column="12" selection-end-line="166" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/ConexaoUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/Constantes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/EncryptUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-641">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/ExportCSV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/LogParametrosSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/MensagemContantes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/SendMail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/ReadProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/SimpleKeyGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/TipoDeIngrediente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/TokenGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/KeyGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/imp/GenericDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/db/HibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dao/GrupoReceitasDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dao/AtributoDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/db/GeneratedDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/controllers/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/controllers/dietoterapia/AtendimentoNutricionalController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-964">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/authorization/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/Teste.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dto/IngredienteAtributoDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/util/TipoDeUsuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/GrupoReceitas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-950">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/IngredienteAtributoId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/IngredienteAtributo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/Receita.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="90" column="45" selection-start-line="90" selection-start-column="45" selection-end-line="90" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/Atributo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-281">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/dietoterapia/AtendimentoNutricional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/Ingrediente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dto/IngredienteCadastroDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/model/dietoterapia/Paciente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="61" column="15" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="15" />
-          <folding>
-            <element signature="e#1387#1388#0" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="251" column="9" lean-forward="true" selection-start-line="251" selection-start-column="9" selection-end-line="251" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dto/UsuarioFormattedDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/GrupoReceitasBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/ImagemBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/AtributoBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="108" column="44" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/IngredienteBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="87" column="43" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/ReceitaBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/UsuarioBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="215" column="41" lean-forward="true" selection-start-line="215" selection-start-column="41" selection-end-line="215" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/dto/AtendimentoNutricionalDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/PacienteBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="36" column="11" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="265" column="28" selection-start-line="265" selection-start-column="28" selection-end-line="266" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/AtendimentoNutricional_JUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="120" column="34" lean-forward="true" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

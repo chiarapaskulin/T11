@@ -2,92 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0f957dd-ebab-4925-9c53-6108ed1a07a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Atributo_JUnit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Usuario_JUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/TESTES_VER_E_VAL/AtendimentoNutricional_JUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/TESTES_VER_E_VAL/AtendimentoNutricional_JUnit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/TESTES_VER_E_VAL/Paciente_JUnit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/authorization/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/authorization/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/AtributoBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/AtributoBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/GrupoReceitasBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/GrupoReceitasBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/ImagemBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/ImagemBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/IngredienteBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/IngredienteBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/ReceitaBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/ReceitaBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/UsuarioBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/UsuarioBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/dietoterapia/AtendimentoNutricionalBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/dietoterapia/PacienteBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/dietoterapia/PacienteBO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/dietoterapia/Teste.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/bo/dietoterapia/Teste.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/APIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/APIController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/AtributoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/AtributoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/CORSFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/CORSFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/GrupoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/GrupoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/ImagemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/ImagemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/IngredienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/IngredienteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/JWTTokenNeeded.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/JWTTokenNeeded.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/JWTTokenNeededFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/JWTTokenNeededFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/ReceitaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/ReceitaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/UsuarioController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/dietoterapia/AtendimentoNutricionalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/dietoterapia/AtendimentoNutricionalController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/dietoterapia/PacienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/controllers/dietoterapia/PacienteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/AtributoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/AtributoDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/GrupoReceitasDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/GrupoReceitasDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/ImagemDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/ImagemDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/IngredienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/IngredienteDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/ReceitaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/ReceitaDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/UsuarioDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/UsuarioDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/dietoterapia/AtendimentoNutricionalDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/dietoterapia/AtendimentoNutricionalDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/dietoterapia/PacienteDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dao/dietoterapia/PacienteDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/db/GeneratedDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/db/GeneratedDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/db/GenericHibernateDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/db/GenericHibernateDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/db/HibernateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/db/HibernateUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/AtendimentoNutricionalDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/AtendimentoNutricionalDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/IngredienteAtributoDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/IngredienteAtributoDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/IngredienteCadastroDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/IngredienteCadastroDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/QuestionAnswerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/QuestionAnswerDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/StandardResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/StandardResponseDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/UsuarioFormattedDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/UsuarioFormattedDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/UsuarioLoginDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/dto/UsuarioLoginDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/exception/PersistenciaException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/exception/PersistenciaException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/exception/UsuarioInativoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/exception/UsuarioInativoException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/exception/ValidationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/exception/ValidationException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/imp/GenericDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/imp/GenericDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Atributo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Atributo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/GrupoReceitas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/GrupoReceitas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Imagem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Imagem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Ingrediente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Ingrediente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/IngredienteAtributo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/IngredienteAtributo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/IngredienteAtributoId.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/IngredienteAtributoId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Nota.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Nota.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Perfil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Perfil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Receita$Tipo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Receita$Tipo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Receita.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Receita.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/ReceitaImagem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/ReceitaImagem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/ReceitaImagemId.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/ReceitaImagemId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/ReceitaIngrediente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/ReceitaIngrediente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/ReceitaIngredienteId.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/ReceitaIngredienteId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Token.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/dietoterapia/AtendimentoNutricional.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/dietoterapia/AtendimentoNutricional.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/dietoterapia/Paciente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/model/dietoterapia/Paciente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/ConexaoUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/ConexaoUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/Constantes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/Constantes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/EncryptUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/EncryptUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/ExportCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/ExportCSV.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/KeyGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/KeyGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/LogParametrosSession.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/LogParametrosSession.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/MensagemContantes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/MensagemContantes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/ReadProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/ReadProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/SendMail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/SendMail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/SimpleKeyGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/SimpleKeyGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/TipoDeIngrediente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/TipoDeIngrediente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/TipoDeUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/TipoDeUsuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/TokenGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/TokenGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/Validator$validaCpf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/Validator$validaCpf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T11/br/com/gastronomia/util/Validator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Atributo_JUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Atributo_JUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Usuario_JUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/gastronomia/TESTES_VER_E_VAL/Usuario_JUnit.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Atributo_JUnit">
+  <component name="RunManager" selected="JUnit.Usuario_JUnit.test_user_creation">
     <configuration name="Atributo_JUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T11" />
       <extension name="coverage">
@@ -197,22 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Atributo_JUnit.test_to_String_valido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="T11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.gastronomia.TESTES_VER_E_VAL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL" />
-      <option name="MAIN_CLASS_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL.Atributo_JUnit" />
-      <option name="METHOD_NAME" value="test_to_String_valido" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Usuario_JUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T11" />
       <extension name="coverage">
@@ -228,7 +130,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Usuario_JUnit.test_to_String_valido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Usuario_JUnit.test_get_by_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="T11" />
       <extension name="coverage">
         <pattern>
@@ -238,7 +140,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL" />
       <option name="MAIN_CLASS_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL.Usuario_JUnit" />
-      <option name="METHOD_NAME" value="test_to_String_valido" />
+      <option name="METHOD_NAME" value="test_get_by_id" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Usuario_JUnit.test_user_creation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="T11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.gastronomia.TESTES_VER_E_VAL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL" />
+      <option name="MAIN_CLASS_NAME" value="br.com.gastronomia.TESTES_VER_E_VAL.Usuario_JUnit" />
+      <option name="METHOD_NAME" value="test_user_creation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -246,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Atributo_JUnit" />
+        <item itemvalue="JUnit.Usuario_JUnit.test_user_creation" />
+        <item itemvalue="JUnit.Usuario_JUnit.test_get_by_id" />
         <item itemvalue="JUnit.Usuario_JUnit" />
-        <item itemvalue="JUnit.Usuario_JUnit.test_to_String_valido" />
         <item itemvalue="JUnit.Atributo_JUnit.test_get_by_id" />
-        <item itemvalue="JUnit.Atributo_JUnit.test_to_String_valido" />
+        <item itemvalue="JUnit.Atributo_JUnit" />
       </list>
     </recent_temporary>
   </component>

@@ -36,13 +36,18 @@ public class Atributo_JUnit {
     }
 
     @Test
-    public void test_to_String_valido() {
-
+    public void test_to_string_valido() {
         Assert.assertEquals("Atributo Cálcio ID: 0 unidade: g multiplicador: 1 obrigatório:true status:true", atributo.toString());
     }
 
-    @Test (expected = ValidationException.class)
+    @Test
     public void test_get_by_id() throws ValidationException {
+        Atributo atb = atributoBO.getAtributoById(0);
+        Assert.assertSame(atributo, atb);
+    }
+
+    @Test (expected = ValidationException.class)
+    public void test_invalid_get_by_id() throws ValidationException {
         Atributo atb = atributoBO.getAtributoById(-1);
     }
 }
